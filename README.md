@@ -8,6 +8,12 @@
 
 [完整中文使用手册](docs/USER_GUIDE.md) · [English quick start](build_tools/README_en.txt) · [日本語クイックスタート](build_tools/README_ja.txt) · [发布准备说明](docs/PUBLISHING.md)
 
+## 开发方式
+
+本项目是作者使用 **Opus 5.5 和 GPT** 进行 **vibe coding（AI 辅助编程）** 的产物。
+
+Built by the author through vibe coding with Opus 5.5 and GPT.
+
 ## 下载和启动
 
 到 [v1.3.0 Releases](https://github.com/ben19910518/TeleprompterMaker/releases/tag/v1.3.0) 下载 **TeleprompterMaker_v1.3.0_Windows_x64.zip**，完整解压后双击 `TeleprompterMaker.exe`。

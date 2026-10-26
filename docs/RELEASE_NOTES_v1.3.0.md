@@ -2,6 +2,8 @@
 
 Windows 提词器视频生成工具，采用 **GPL-3.0-only** 开源。
 
+本项目是作者使用 **Opus 5.5 和 GPT** 进行 **vibe coding（AI 辅助编程）** 的产物。
+
 ## 下载
 
 - **普通用户**：[下载 Windows x64 绿色包](https://github.com/ben19910518/TeleprompterMaker/releases/download/v1.3.0/TeleprompterMaker_v1.3.0_Windows_x64.zip)。完整解压后运行 `TeleprompterMaker.exe`，不需要安装 Python 或启动脚本。
