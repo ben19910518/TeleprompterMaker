@@ -30,8 +30,14 @@ The public source repository does not redistribute Python, Qt runtime DLLs, FFmp
 
 Build tools and transitive dependencies retain their respective terms. In particular, PyInstaller's bootloader exception matters when distributing applications built with it. Recognition models have their own model licenses; no model weights are included here.
 
-## Windows executable distribution status
+## Windows executable distribution
 
-The pre-existing local v1.3.0 executable ZIP is not included in the initial public source release. Its FFmpeg runtime reports LGPL version 3 or later while the configuration includes x264/x265, and its complete third-party notice/corresponding-source material has not yet been assembled. Choosing GPL for the application does not by itself resolve those binary distribution requirements.
+The v1.3.0 Windows x64 release includes original third-party license/copyright/NOTICE files under `licenses/`, plus source and binary manifests. A companion `TeleprompterMaker_v1.3.0_ThirdPartySources.zip` supplies the application source, version-matched Qt/PySide6/FFmpeg/PyAV/codec sources, build recipes, patches and additional native/Rust dependency sources.
 
-Before publishing a runtime ZIP, inventory the actual packaged DLLs and Python distributions, retain all applicable notices, provide corresponding source and build information as required, and verify the exact FFmpeg/codec build. Reference: <https://ffmpeg.org/legal.html>, <https://github.com/PyAV-Org/pyav-ffmpeg>, <https://doc.qt.io/qt-6/licensing.html>.
+Qt and PySide6 runtime libraries are used under their LGPL-3.0 option; editable translation sources and full corresponding library sources/build information are provided. Users may replace the libraries and rebuild the application/Qt bindings as permitted by those licenses. Original notices and all available upstream license texts are retained; commercial alternatives are not selected by this distribution.
+
+The FFmpeg/x264/x265 binary combination is distributed under GPL-3.0 conditions. The upstream FFmpeg build reports LGPL version 3 or later because its source patch changes the x264/x265 configure classification. That report does not override the GPL terms of the codecs. Exact source, patch, configuration and dependency versions are supplied, with the explanation in `provenance/ffmpeg-runtime.json` in the source attachment.
+
+The package preserves notices for PortAudio, OpenSSL, libffi, SQLite, NumPy/OpenBLAS, Intel OpenMP, GCC runtime libraries/exception, MinGW and Microsoft runtime components. cuDNN, ASIO audio extensions, model weights and fonts are not redistributed in this standard package. Proprietary vendor runtimes remain subject to their own redistribution terms; the application's GPL does not relicense those components.
+
+See [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md), `licenses/INDEX.json`, `SOURCE_MANIFEST.json` and the companion source archive for exact files, hashes, provenance and rebuilding instructions. Release downloads: https://github.com/ben19910518/TeleprompterMaker/releases/tag/v1.3.0

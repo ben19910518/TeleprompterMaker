@@ -10,15 +10,14 @@
 
 ## 下载和启动
 
-**本次 GitHub 发布为源码版，许可证为 GPL-3.0-only。** [查看 v1.3.0 发布说明](https://github.com/ben19910518/TeleprompterMaker/releases/tag/v1.3.0)，按下文“从源码运行”安装依赖并启动。当前公开附件不包含 EXE、模型或 CUDA。
+到 [v1.3.0 Releases](https://github.com/ben19910518/TeleprompterMaker/releases/tag/v1.3.0) 下载 **TeleprompterMaker_v1.3.0_Windows_x64.zip**，完整解压后双击 `TeleprompterMaker.exe`。
 
-本地已有的 Windows 绿色包暂未公开上传：音视频库的完整发行资料仍需核对，见 [第三方声明](THIRD_PARTY_NOTICES.md)。以下绿色包说明适用于已经取得完整运行包的用户：完整解压后双击 `TeleprompterMaker.exe`。
-
-- 绿色版已包含 Python、Qt 和基本音视频运行组件，不用另装 Python，也没有启动脚本。
-- 请保留整个文件夹，特别是 `_internal/`；不要只移动 EXE。
-- GitHub 的 **Code → Download ZIP** 和本次 Release 的 Source code 下载的都是源码。
-- 标准绿色版不含识别模型和 CUDA 库。已有时间轴的歌词可以直接使用；纯文本自动对轴首次需要下载模型，之后可以离线使用。
-- 没有 NVIDIA 显卡也能使用。自动对轴可使用 CPU，视频导出默认使用 x264。
+- 已包含 Python、Qt 和音视频运行组件，不需要另装 Python，也不需要启动脚本。
+- 保留整个目录，特别是 `_internal`；不要只复制 EXE。
+- 标准包不含模型、CUDA/cuDNN、ASIO 扩展或字体。已有 LRC/SRT 可直接编辑和导出；自动对轴首次需下载模型，支持 CPU。
+- `ThirdPartySources.zip` 是对应源码和重建资料，普通用户无需下载它才能运行。
+- GitHub 的 Code → Download ZIP 和 Source code 附件是源码，不含 EXE。
+- 许可、源码、验证和打包修订说明见 [docs/DISTRIBUTION.md](docs/DISTRIBUTION.md)。
 
 ## 两种上手流程
 

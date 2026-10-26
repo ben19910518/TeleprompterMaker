@@ -24,9 +24,9 @@ Teleprompter Maker 将音频与带时间信息的歌词合成为提词器视频�
 
 ## 2 下载、启动和界面语言
 
-**当前 GitHub 首次公开发布提供源码，未附 EXE 包。** 从 GitHub 下载源码的用户，请先按第 12 节配置环境。下面的 EXE 操作适用于已取得完整 Windows 绿色包的用户；主界面的功能操作两者相同。第三方运行包发行状态见 [第三方声明](../THIRD_PARTY_NOTICES.md)。
+GitHub Release 提供 Windows x64 完整绿色包与配套源码。普通用户下载 Windows_x64.zip；源码用户按第 12 节配置环境。发行和源码说明见 [DISTRIBUTION.md](DISTRIBUTION.md)。
 
-1. 准备完整的 `TeleprompterMaker_v1.3.0.zip` Windows 绿色包；本次 GitHub 源码发行暂不提供该附件。
+1. 在 GitHub Releases 下载 `TeleprompterMaker_v1.3.0_Windows_x64.zip` 完整绿色包。
 2. 将压缩包完整解压到可写目录，例如 `D:\Tools\TeleprompterMaker`。
 3. 双击 `TeleprompterMaker.exe` 启动。绿色版不用安装 Python，也不用启动脚本。
 4. 保留 EXE 同目录的 `_internal` 等文件；单独复制 EXE 无法运行。
