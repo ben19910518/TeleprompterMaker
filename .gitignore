@@ -1,0 +1,40 @@
+# local environments
+.venv/
+.toolchain/
+
+# build output
+build/
+dist/
+release/
+*.spec.bak
+
+# downloaded recognition models / CUDA runtime
+models/
+cuda/
+
+# runtime files
+settings.json
+settings.json.tmp
+*.log
+fonts/
+
+# python
+__pycache__/
+*.py[cod]
+
+# editors / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Internal planning documents (keep local)
+/docs/TeleprompterMaker后续功能规划.docx
+/docs/提词器生成工具需求文档.txt
+
+# Local publication staging and credentials
+.env
+.env.*
+*.pem
+*.key

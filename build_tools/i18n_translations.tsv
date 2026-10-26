@@ -1,0 +1,379 @@
+  当前行|||  Current line|||  現在の行
+ 句||| lines||| 行
+ 字以内||| chars or fewer||| 文字以内
+ 秒||| s||| 秒
+ 自动||| Auto||| 自動
+ 行||| lines||| 行
+1080×1920（竖屏）|||1080×1920 (portrait)|||1080×1920（縦画面）
+1280×720（横屏 720p）|||1280×720 (landscape 720p)|||1280×720（横画面 720p）
+1920×1080（横屏 1080p）|||1920×1080 (landscape 1080p)|||1920×1080（横画面 1080p）
+AMD AMF（显卡加速）|||AMD AMF (GPU)|||AMD AMF（GPU）
+CPU，一首歌约 1~2 分钟|||CPU; about 1–2 minutes per song|||CPU・1曲あたり約1～2分
+H.264 固定量化（CQP）编码：画面几乎不动的提词器视频体积会非常小|||H.264 constant-QP encoding keeps mostly static teleprompter videos small.|||H.264固定量子化（CQP）により、動きの少ないプロンプター動画の容量を抑えます。
+HuggingFace（海外）|||Hugging Face|||Hugging Face
+Intel QSV（核显加速）|||Intel QSV (integrated GPU)|||Intel QSV（内蔵GPU）
+LRC 歌词 (*.lrc)|||LRC lyrics (*.lrc)|||LRC歌詞 (*.lrc)
+LRC 歌词 (*.lrc);;SRT 字幕 (*.srt)|||LRC lyrics (*.lrc);;SRT subtitles (*.srt)|||LRC歌詞 (*.lrc);;SRT字幕 (*.srt)
+Large-v3 Turbo（推荐，准确）|||Large-v3 Turbo (recommended)|||Large-v3 Turbo（推奨）
+MP4 视频 (*.mp4);;MOV 视频 (*.mov);;MKV 视频 (*.mkv)|||MP4 video (*.mp4);;MOV video (*.mov);;MKV video (*.mkv)|||MP4動画 (*.mp4);;MOV動画 (*.mov);;MKV動画 (*.mkv)
+ModelScope 魔搭（国内推荐）|||ModelScope (recommended in China)|||ModelScope（中国で推奨）
+NVIDIA NVENC（显卡加速）|||NVIDIA NVENC (GPU)|||NVIDIA NVENC（GPU）
+QP 值|||QP value|||QP値
+SRT 字幕 (*.srt)|||SRT subtitles (*.srt)|||SRT字幕 (*.srt)
+Small（较快，准确度一般）|||Small (faster, less accurate)|||Small（高速・精度は控えめ）
+_提词器.mp4|||_teleprompter.mp4|||_プロンプター.mp4
+hf-mirror 镜像|||hf-mirror|||hf-mirror
+pinyin 爱 -> {p0}|||pinyin test -> {p0}|||ピンインテスト -> {p0}
+x264 速度|||x264 preset|||x264プリセット
+x264（CPU，兼容性最好）|||x264 (CPU, widest compatibility)|||x264（CPU・高い互換性）
+{p0}\n\n详细信息已写入：\n{p1}|||{p0}\n\nDetails have been written to:\n{p1}|||{p0}\n\n詳細を次のファイルに記録しました：\n{p1}
+{p0}\n已经存在，要覆盖吗？|||{p0}\nAlready exists. Overwrite it?|||{p0}\nは既に存在します。上書きしますか？
+{p0}   例：在春天{p1}在夏天|||{p0}   Example: Spring{p1}Summer|||{p0}   例：春に{p1}夏に
+{p0}  约{p1}MB|||{p0}  ~{p1} MB|||{p0}  約{p1} MB
+{p0} 下载不完整（{p1}/{p2} 字节），请重试|||Incomplete download: {p0} ({p1}/{p2} bytes). Please retry.|||{p0} のダウンロードが不完全です（{p1}/{p2}バイト）。再試行してください。
+{p0} 句|||{p0} lines|||{p0} 行
+{p0}_自动识别{p1}.lrc|||{p0}_aligned{p1}.lrc|||{p0}_自動同期{p1}.lrc
+① 文件|||① Files|||① ファイル
+② 画面|||② Canvas|||② 画面
+③ 文字|||③ Text|||③ 文字
+④ 亮度 / 透明度|||④ Brightness / opacity|||④ 明るさと不透明度
+⑤ 动画与时间|||⑤ Animation / timing|||⑤ アニメーションと時間
+⑥ 短句合并|||⑥ Short-line merging|||⑥ 短い行の結合
+⑦ 视频输出|||⑦ Video output|||⑦ 動画出力
+▶ 播放|||▶ Play|||▶ 再生
+◀ 上一句|||◀ Previous|||◀ 前の行
+⚠ 这是纯文本歌词（{p0} 行），没有时间轴。请点击下方「自动识别时间轴」。在那之前预览按每行 3 秒临时显示。|||⚠ Plain-text lyrics ({p0} lines) have no timestamps. Use Auto-align lyrics below. The preview temporarily assigns 3 seconds per line.|||⚠ テキスト歌詞（{p0}行）には時刻がありません。下の「歌詞の自動同期」を実行してください。それまでは仮に1行3秒で表示します。
+✓ {p0} 歌词，共 {p1} 句|||✓ {p0} lyrics, {p1} lines|||✓ {p0}歌詞・{p1}行
+✓ 已下载|||✓ Installed|||✓ ダウンロード済み
+✓ 已生成 {p0}（{p1:.1f} MB，{p2}，用时 {p3:.0f} 秒）|||✓ Created {p0} ({p1:.1f} MB, {p2}, took {p3:.0f} s)|||✓ {p0} を作成しました（{p1:.1f} MB・{p2}・処理時間{p3:.0f}秒）
+✓ 自动识别的时间轴，共 {p0} 句|||✓ Auto-aligned timestamps, {p0} lines|||✓ 自動同期した歌詞・{p0}行
+❚❚ 暂停|||❚❚ Pause|||❚❚ 一時停止
+一句歌词太长被折成两行时，这两行之间的距离（比行间距更紧，才能看出是同一句）|||Spacing within a wrapped lyric line, tighter than the gap between separate lines.|||長い歌詞を折り返した際の間隔です。別の歌詞行の間隔より狭くして、同じ歌詞だと分かるようにします。
+上下行字号 = 中间行字号 × 比例|||Surrounding font size = current-line font size × ratio.|||前後の行の文字サイズ＝現在行の文字サイズ×比率です。
+上下行字号略小、透明度递减|||Surrounding lines are smaller and fade toward the edges|||前後の行は小さく、端に近づくほど薄く表示します
+上下行比例|||Surrounding size|||前後行のサイズ比率
+上下边缘渐隐|||Fade at edges|||上下端のフェード
+上下边距|||Vertical margin|||上下余白
+上方显示 {p0} 句|||{p0} lines above|||上に{p0}行表示
+上方（已经唱过的）歌词再额外调暗|||Further dim the lines that have already been sung.|||上側の歌い終わった行をさらに暗くします。
+下一句 ▶|||Next ▶|||次の行 ▶
+下载失败：{p0}\n可以换一个下载源再试。|||Download failed: {p0}\nTry another download source.|||ダウンロード失敗：{p0}\n別のダウンロード元で再試行してください。
+下载模型|||Download model|||モデルをダウンロード
+下载源|||Source|||ダウンロード元
+不包含音频（静音视频）|||No audio (silent video)|||音声なし（無音動画）
+不折行（缩小字号）|||No wrapping (shrink text)|||折り返さない（文字を縮小）
+两句之间停顿超过这个时间就不合并|||Do not merge lines when their gap exceeds this duration.|||行間の空白がこの時間を超える場合は結合しません。
+两句之间空白超过这个时间才算间奏|||Treat gaps longer than this as an interlude.|||この時間を超える空白を間奏とみなします。
+两句歌词之间的距离，按字号的百分比|||Space between lyric lines, as a percentage of the font size.|||歌詞行の間隔です。文字サイズに対する比率で指定します。
+中文|||Chinese|||中国語
+中文/日文一个字算 1，英文字母算 0.5|||Chinese/Japanese characters count as 1; Latin letters as 0.5.|||中国語・日本語の文字は1、英字は0.5として数えます。
+中等|||Medium|||中
+中间行 {p0:.0f}px / 上下行 {p1:.0f}px|||Current line {p0:.0f}px / surrounding {p1:.0f}px|||現在行{p0:.0f}px・前後行{p1:.0f}px
+中间行字号|||Current-line size|||現在行の文字サイズ
+估算|||Estimated|||推定
+体积小、速度快，但歌声识别容易出错|||Small and fast, but less reliable for singing.|||小型で高速ですが、歌声の認識精度は低めです。
+使用未安装的字体（.ttf/.otf）。也可以把字体文件放进程序目录的 fonts 文件夹，启动时自动加载|||Load a font file (.ttf/.otf), or place fonts in the app's fonts folder to load them at startup.|||未インストールのフォント（.ttf/.otf）を読み込みます。アプリのfontsフォルダーに置くと起動時に自動で読み込まれます。
+例如「在春天」「在夏天」会显示为「在春天 ／ 在夏天」，正在唱的部分高亮|||For example, Spring and Summer become Spring / Summer, with the active part highlighted.|||例：「春に」と「夏に」を「春に ／ 夏に」と結合し、歌っている部分を強調します。
+例如上方 2 句、下方 4 句，可以让演员看到更多即将要唱的歌词|||For example, show 2 lines above and 4 below to give more advance notice.|||例：上に2行、下に4行を表示すると、これから歌う歌詞を多く確認できます。
+例如标题、作者这类不唱的行，可以在这里直接删掉|||Remove lines that are not sung, such as titles and credits.|||曲名や作詞者など、歌わない行を削除できます。
+保存为 LRC…|||Save LRC…|||LRCで保存…
+保存为 SRT…|||Save SRT…|||SRTで保存…
+保存到|||Save to|||保存先
+保存歌词|||Save lyrics|||歌詞を保存
+保存歌词失败|||Could not save lyrics|||歌詞を保存できません
+保存视频|||Save video|||動画を保存
+修改歌词，支持原文与翻译分行；应用修改、切换句子或保存时生效|||Edit lyrics; translations may use a new line. Apply, select another line, or save to commit.|||歌詞を編集できます。訳文は改行して入力できます。適用・行の切り替え・保存で変更が確定します。
+倒计时|||Countdown|||カウントダウン
+全屏预览|||Full screen|||全画面プレビュー
+全屏预览（Esc 退出，空格 播放/暂停）|||Full-screen preview (Esc: exit; Space: play/pause)|||全画面プレビュー（Escで終了・スペースで再生／一時停止）
+关键帧间隔|||Keyframe interval|||キーフレーム間隔
+关闭|||Close|||閉じる
+再见|||Goodbye|||さようなら
+准备中…|||Preparing…|||準備中…
+出错了|||Error|||エラー
+分:秒.毫秒|||mm:ss.mmm|||分:秒.ミリ秒
+分辨率|||Resolution|||解像度
+分隔符|||Separator|||区切り文字
+删除本句|||Delete line|||この行を削除
+删除选中行|||Delete selected|||選択行を削除
+前奏/间奏提示|||Intro / interlude|||前奏と間奏の案内
+加载字体文件…|||Load font…|||フォントを読み込む…
+加载音频和歌词后即可预览真实效果|||Load audio and lyrics to preview your result|||音声と歌詞を読み込むと実際の表示を確認できます
+动画时长|||Animation duration|||アニメーション時間
+勾选「自动铺满屏幕」时，按显示行数自动算出最大的字号|||Automatically choose the largest font size that fits the visible lines.|||表示行数に合わせて、画面に収まる最大の文字サイズを自動で選びます。
+半粗|||Semibold|||セミボールド
+半细|||Semilight|||セミライト
+原始歌词（点击跳转，双击编辑）|||Source lyrics (click to seek; double-click to edit)|||元の歌詞（クリックで移動・ダブルクリックで編集）
+取消|||Cancel|||キャンセル
+句尾不能超过下一句开始；请先调整相邻句。|||The end must not pass the next line's start. Adjust the adjacent line first.|||終了時刻は次の行の開始時刻を超えられません。先に隣の行を調整してください。
+另存歌词|||Save lyrics as|||歌詞に名前を付けて保存
+另存歌词…|||Save lyrics as…|||歌詞を別名で保存…
+只有音频和纯文本歌词时，自动听歌给每一行歌词配上时间，并可保存为 LRC / SRT|||Align plain-text lyrics to audio, then save the timestamps as LRC or SRT.|||音声とテキスト歌詞から各行の時刻を自動設定し、LRCまたはSRTで保存できます。
+可信度|||Confidence|||信頼度
+合并行中当前没在唱的那几句的亮度，用来区分正在唱的是哪一句|||Brightness of inactive parts within a merged line.|||結合行の中で、まだ歌っていない部分の明るさです。
+后插一句|||Insert after|||後に行を挿入
+啦啦啦|||La la la|||ラララ
+国H字|||国H字|||国H字
+在第二块屏幕（或当前屏幕）全屏显示，用来在真实提词屏上检查效果|||Preview on a second screen, or the current screen, to check the actual teleprompter display.|||第2画面または現在の画面に全画面表示して、実際のプロンプターで確認します。
+声卡不可用，静音预览：{p0}|||Audio device unavailable; silent preview: {p0}|||音声デバイスが使えないため無音でプレビューします：{p0}
+字与字之间额外的距离，按字号的百分比|||Extra character spacing, as a percentage of the font size.|||追加の文字間隔です。文字サイズに対する比率で指定します。
+字体|||Font|||フォント
+字体 (*.ttf *.otf *.ttc *.otc)|||Fonts (*.ttf *.otf *.ttc *.otc)|||フォント (*.ttf *.otf *.ttc *.otc)
+字体自带的粗细；字体本身较细时可在详细模式里加「描边」使其更粗|||Choose a font weight. Outline in Detailed mode can make thin text heavier.|||フォントの太さを選びます。細い場合は詳細モードの縁取りで補えます。
+字重|||Weight|||太さ
+字间距|||Character spacing|||文字間隔
+完成|||Done|||完了
+完成：共 {p0} 行|||Done: {p0} lines|||完了：{p0}行
+对提词器这种静态画面，veryfast 和 slow 体积几乎一样，veryfast 快很多|||For mostly static lyrics, veryfast produces a similar size to slow and runs much faster.|||動きの少ない歌詞画面では、veryfastはslowとほぼ同じ容量で、処理が大幅に速くなります。
+对齐|||Alignment|||文字揃え
+小文件（QP 27）|||Smaller file (QP 27)|||小さいファイル（QP 27）
+居中|||Center|||中央揃え
+屏幕上同时显示的歌词句数（例如 7：当前句 + 上下各 3 句）|||Number of visible lines; e.g. 7 means the current line plus 3 above and 3 below.|||同時に表示する行数です。7行なら現在行と上下各3行を表示します。
+左右边距|||Horizontal margin|||左右余白
+已保存：{p0}|||Saved: {p0}|||保存しました：{p0}
+已删除 {p0} 行，剩余 {p1} 行。|||Deleted {p0} lines; {p1} remaining.|||{p0}行を削除しました。残り{p1}行です。
+已删除歌词，可撤销|||Line deleted; undo is available|||歌詞行を削除しました。元に戻せます
+已取消|||Cancelled|||キャンセルしました
+已取消下载（再次下载会从断点继续）|||Download cancelled (resumes next time)|||ダウンロードを中止しました（次回は続きから再開）
+已唱过的行|||Past lines|||歌い終わった行
+已应用到当前项目。|||Applied to the current project.|||現在のプロジェクトに適用しました。
+已应用歌词修改|||Lyric changes applied|||歌詞の変更を適用しました
+已插入歌词|||Line inserted|||歌詞行を挿入しました
+帧率|||Frame rate|||フレームレート
+常规|||Regular|||標準
+平滑滚动（关闭可减小文件）|||Smooth scrolling (off for smaller files)|||滑らかなスクロール（無効にすると容量を削減）
+应用修改|||Apply changes|||変更を適用
+应用到当前项目|||Apply to project|||プロジェクトに適用
+开启|||Enabled|||有効
+开头 +|||Start +|||開始 +
+开头 −|||Start −|||開始 −
+开始|||Start|||開始
+开始时间必须按顺序排列，并与下一句至少相隔 10ms。|||Start times must be ordered with at least 10ms before the next line.|||開始時刻は順番どおりにし、次の行と10ms以上の間隔を空けてください。
+开始时间必须是非负有限数值。|||Start time must be a finite number greater than or equal to zero.|||開始時刻には0以上の有限な数値を入力してください。
+开始识别|||Start alignment|||自動同期を開始
+当一句歌词太长超出屏幕宽度时会自动折成两行显示并且行距更紧凑|||Long lyrics wrap onto two lines with tighter spacing|||長い歌詞は2行に折り返して、行間を詰めて表示します
+当前没有带时间轴的歌词。|||No timestamped lyrics are available.|||時刻付きの歌詞がありません。
+当前行位置|||Current-line position|||現在行の位置
+当前行可以单独设一个颜色（例如黄色）以便一眼找到|||Give the current line its own color, such as yellow, to make it easy to find.|||現在行に黄色など別の色を指定して、見つけやすくできます。
+微软雅黑|||微软雅黑|||微软雅黑
+手动|||Manual|||手動
+打开所在文件夹|||Open folder|||保存先フォルダーを開く
+扣除整体偏移后时间小于零，不能打点。|||The time is negative after removing the global offset; cannot set a timestamp.|||全体オフセットを差し引くと時刻が負になるため、打刻できません。
+把当前时间轴保存为 LRC 或 SRT|||Save the current timestamps as LRC or SRT.|||現在の時刻情報をLRCまたはSRTで保存します。
+把歌词按「一行一句」粘贴或修改在左边（标题、作者等不唱的行可以删掉，不删也会被自动识别为未演唱），然后点「开始识别」。程序会听歌并给每一行配上时间，结果可以在右侧检查和修改。|||Paste the lyrics on the left, one phrase per line, then start alignment. Remove titles and credits that are not sung. Review and edit the resulting timestamps on the right.|||左側に歌詞を1行ずつ貼り付けて、自動同期を開始してください。曲名や作詞者など歌わない行は削除できます。右側で結果の時刻を確認・修正できます。
+折行行距|||Wrapped-line spacing|||折り返しの行間
+描边|||Outline|||縁取り
+提前切换|||Advance timing|||先行表示
+提前显示下一句并倒计时|||Preview next line with countdown|||次の行を先に表示してカウントダウン
+提示：可以直接把音频和歌词文件拖进窗口。空格键播放/暂停，←→ 快退快进，↑↓ 上一句/下一句。|||Tip: Drop audio or lyrics here. Space: play/pause; ←→: seek; ↑↓: previous/next line.|||音声や歌詞ファイルをドラッグして読み込めます。スペース：再生／一時停止、←→：移動、↑↓：前／次の行。
+提词器屏幕播放|||Teleprompter playback|||プロンプター画面の再生
+提词器画面变化很少，30 fps 足够；需要配合其它素材时选同样的帧率|||30 fps is usually sufficient. Match the frame rate of other footage when needed.|||通常は30fpsで十分です。他の映像と組み合わせる場合はフレームレートを合わせてください。
+提词器视频生成工具|||Teleprompter Maker|||プロンプター動画作成
+提词器预览示例|||Teleprompter preview example|||プロンプターの表示例
+插入歌词|||Insert lyric line|||歌詞行を挿入
+撤销|||Undo|||元に戻す
+播放视频|||Play video|||動画を再生
+数值越小画质越好、文件越大。18 接近无损，22 推荐，28 以上文字边缘会有毛刺|||Lower values improve quality and increase size. 18 is near lossless; 22 is recommended; values over 28 may roughen text edges.|||値が小さいほど高画質・大容量です。18はほぼ無劣化、推奨は22です。28を超えると文字の輪郭が荒れる場合があります。
+整体偏移|||Global offset|||全体オフセット
+文件已存在|||File already exists|||ファイルが存在します
+文字描边宽度和颜色；颜色设为与文字相同可以让字变得更粗|||Text outline width and color; matching the text color makes the letters heavier.|||文字の縁取り幅と色です。文字と同じ色にすると太く見せられます。
+文字颜色|||Text colors|||文字色
+新句内容（插入到选中句后）：|||New text (inserted after the selected line):|||新しい歌詞（選択行の後に挿入）：
+无法加载|||Could not load|||読み込めません
+无法读取歌词文件：{p0}|||Could not read lyrics: {p0}|||歌詞ファイルを読み込めません：{p0}
+无法读取音频时长|||Could not read audio duration|||音声の長さを取得できません
+无法读取音频：{p0}|||Could not read audio: {p0}|||音声を読み込めません：{p0}
+日语|||Japanese|||日本語
+时长 {p0}|||Duration {p0}|||長さ {p0}
+时间不能小于零。|||Time cannot be negative.|||時刻を負の値にはできません。
+时间格式错误，请输入 分:秒.毫秒 或秒数。|||Invalid time. Enter mm:ss.mmm or seconds.|||時刻の形式が正しくありません。分:秒.ミリ秒、または秒数で入力してください。
+是否保存当前歌词的修改？|||Save the changes to the current lyrics?|||現在の歌詞の変更を保存しますか？
+显卡加速|||GPU acceleration|||GPU高速化
+显卡编码更快；x264 兼容性最好、文件最小|||GPU encoding is faster; x264 offers broad compatibility and small files.|||GPUエンコードは高速です。x264は互換性が高く、容量を抑えられます。
+显示行数|||Visible lines|||表示行数
+最多 2 行|||Up to 2 rows|||最大2行
+最多 3 行|||Up to 3 rows|||最大3行
+最多合并|||Maximum merged lines|||最大結合行数
+最大间隔|||Maximum gap|||最大間隔
+最远行亮度|||Farthest-line brightness|||最遠行の明るさ
+未下载|||Not installed|||未ダウンロード
+未保存修改 · |||Unsaved changes · |||未保存の変更 · 
+未唱部分亮度|||Inactive-part brightness|||未歌唱部分の明るさ
+极细|||Thin|||極細
+标准（QP 22，推荐）|||Standard (QP 22, recommended)|||標準（QP 22・推奨）
+模型下载完成。|||Model download complete.|||モデルのダウンロードが完了しました。
+歌词|||Lyrics|||歌詞
+歌词/字幕 (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;所有文件 (*.*)|||Lyrics/subtitles (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;All files (*.*)|||歌詞・字幕 (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;すべてのファイル (*.*)
+歌词为空|||Lyrics are empty|||歌詞が空です
+歌词内容不能为空；删除整句请使用「删除本句」。|||Lyrics cannot be empty. Use Delete line to remove the whole line.|||歌詞を空にはできません。行全体を消す場合は「この行を削除」を使ってください。
+歌词尚未保存|||Unsaved lyrics|||未保存の歌詞
+歌词整体比音乐早/晚时用来校正：正数 = 歌词推后|||Correct a global sync difference. Positive values delay the lyrics.|||歌詞全体のずれを補正します。正の値で歌詞の表示を遅らせます。
+歌词文本（每行一句）|||Lyric text (one phrase per line)|||歌詞テキスト（1行に1フレーズ）
+歌词编辑 · 原始行（不受预览短句合并影响）|||Lyric editor · Source lines|||歌詞編集 · 元の行（プレビューの結合とは独立）
+歌词还没有时间轴（目前是每行 3 秒的临时时间）。\n先去自动识别时间轴吗？|||The lyrics have no timestamps (using temporary 3-second lines).\nAuto-align them first?|||歌詞に時刻がありません（仮に1行3秒で表示中）。\n先に歌詞の自動同期を実行しますか？
+正在下载模型 {p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s|||Downloading model: {p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s|||モデルをダウンロード中：{p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s
+正在分析画面…|||Analyzing frames…|||画面を解析中…
+正在加载识别模型（首次约需 10 秒）…|||Loading model (first load may take about 10 seconds)…|||認識モデルを読み込み中（初回は約10秒）…
+正在取消…|||Cancelling…|||キャンセル中…
+正在处理|||Processing|||処理中
+正在处理中，确定要取消并关闭吗？|||Processing is in progress. Cancel and close?|||処理中です。中止して閉じますか？
+正在对齐歌词…|||Aligning lyrics…|||歌詞を同期中…
+正在生成|||Export in progress|||動画を作成中
+正在生成…|||Exporting…|||作成中…
+正在生成视频… {p0}/{p1} 帧|||Exporting video… {p0}/{p1} frames|||動画を作成中… {p0}/{p1}フレーム
+正在补充识别漏掉的句子… {p0}/{p1}|||Refining missed lines… {p0}/{p1}|||認識できなかった行を再認識中… {p0}/{p1}
+正在识别歌声（{p0}）…|||Recognizing vocals ({p0})…|||歌声を認識中（{p0}）…
+正在识别歌声（{p0}）… {p1}%|||Recognizing vocals ({p0})… {p1}%|||歌声を認識中（{p0}）… {p1}%
+正在读取音频…|||Loading audio…|||音声を読み込み中…
+此刻设为开始|||Set start here|||現在位置を開始に
+此刻设为结束|||Set end here|||現在位置を終了に
+比歌词时间提前多少秒切到下一句，方便演员提前看到|||Switch to the next line this many seconds early to give the performer advance notice.|||歌詞の時刻より何秒早く次の行に切り替えるかを指定します。
+没有时间轴|||No timestamps|||時刻がありません
+没有歌词|||No lyrics|||歌詞がありません
+浏览…|||Browse…|||参照…
+渲染设置有误：{p0}|||Invalid rendering settings: {p0}|||描画設定に問題があります：{p0}
+点击选择颜色|||Click to choose a color|||クリックして色を選択
+爱|||爱|||爱
+特粗|||Extra bold|||極太
+特细|||Extra light|||エクストラライト
+生成失败：{p0}|||Export failed: {p0}|||動画の作成に失敗しました：{p0}
+生成提词器视频|||Export teleprompter video|||プロンプター動画を作成
+生成视频|||Export video|||動画を作成
+用于抠像（标准绿 #00B140）|||Chroma key green (#00B140)|||クロマキー用の緑（#00B140）
+用于抠像（标准蓝 #0047BB）|||Chroma key blue (#0047BB)|||クロマキー用の青（#0047BB）
+画质|||Quality|||画質
+留空表示自动结束；显示的自动时间以空白字段旁的提示为准|||Leave blank for an automatic end; the placeholder shows the inferred time.|||空欄にすると終了時刻を自動設定します。入力欄の薄い表示が推定時刻です。
+相邻行亮度|||Adjacent-line brightness|||隣接行の明るさ
+短句合并|||Merge short lines|||短い行を結合
+短句标准|||Short-line limit|||短い行の基準
+示例歌词 —— 请先选择音频和歌词文件|||Example lyrics — select audio and lyrics to begin|||表示例 — 音声と歌詞を選択してください
+程序出错|||Application error|||アプリケーションエラー
+空格键：播放/暂停；在歌词、时间等输入框中保留正常输入|||Space: play/pause. Text and time fields keep normal typing.|||スペース：再生／一時停止。歌詞や時刻の入力欄では通常どおり入力できます。
+第 {p0}/{p1} 句 · |||Line {p0}/{p1} · |||{p0}/{p1}行目 · 
+第一次使用需要下载识别模型，现在下载吗？\n（下载一次即可，之后可离线使用）|||An alignment model is required. Download it now?\n(Download once, then use it offline.)|||認識モデルが必要です。今すぐダウンロードしますか？\n（一度ダウンロードすれば、以後はオフラインで使用できます）
+第五行|||Line five|||5行目
+第四行|||Line four|||4行目
+等待行亮度|||Upcoming-line brightness|||待機行の明るさ
+简易模式|||Simple|||簡易モード
+粗|||Bold|||太字
+粤语|||Cantonese|||広東語
+纯文本歌词：临时按每行 3 秒显示，请先「自动识别时间轴」|||Plain text: temporary 3-second lines. Run Auto-align lyrics first.|||テキスト歌詞：仮に1行3秒で表示しています。先に歌詞の自動同期を実行してください。
+纯文本的时间仍是临时值，请先自动识别时间轴。|||Plain-text timestamps are temporary. Auto-align the lyrics first.|||テキスト歌詞の時刻は仮の値です。先に歌詞の自動同期を実行してください。
+细|||Light|||細字
+结尾 +|||End +|||終了 +
+结尾 −|||End −|||終了 −
+结束|||End|||終了
+结束时间必须晚于开始时间至少 10ms。|||The end must be at least 10ms after the start.|||終了時刻は開始時刻より10ms以上後にしてください。
+绿幕|||Green|||グリーン
+编码器|||Encoder|||エンコーダー
+编辑原始时间（不含整体偏移）；句尾留空为自动。|||Source times (without global offset); blank end = auto.|||元の時刻を編集（全体オフセットは含みません）。終了を空欄にすると自動です。
+背景颜色|||Background|||背景色
+自动把很短的几句合成一行|||Merge very short phrases into one line|||とても短い複数の歌詞を1行に結合
+自动检测|||Auto-detect|||自動検出
+自动识别时间轴|||Auto-align lyrics|||歌詞の自動同期
+自动识别时间轴…|||Auto-align lyrics…|||歌詞の自動同期…
+自动铺满屏幕|||Auto-fit to screen|||画面に自動フィット
+自定义|||Custom|||カスタム
+自定义尺寸|||Custom dimensions|||カスタムサイズ
+自检第一行|||Self-test line one|||テストの1行目
+英语|||English|||英語
+蓝幕|||Blue|||ブルー
+行间距|||Line spacing|||行間
+视频已生成：\n{p0}\n\n大小 {p1:.1f} MB · 时长 {p2} · 共 {p3} 帧（其中 {p4} 帧有变化）|||Video created:\n{p0}\n\nSize {p1:.1f} MB · Duration {p2} · {p3} frames ({p4} unique)|||動画を作成しました：\n{p0}\n\n容量{p1:.1f} MB・長さ{p2}・{p3}フレーム（変化あり{p4}フレーム）
+视频还在生成中，确定要退出吗？|||Video export is in progress. Exit anyway?|||動画を作成中です。終了しますか？
+识别失败：{p0}|||Alignment failed: {p0}|||自動同期に失敗しました：{p0}
+识别模型|||Model|||認識モデル
+识别模型还没有下载|||The alignment model has not been downloaded|||認識モデルがまだダウンロードされていません
+识别歌声效果最好，CPU 上处理一首歌约 1~3 分钟|||Best for singing; roughly 1–3 minutes per song on CPU.|||歌声に適しています。CPUでは1曲あたり約1～3分です。
+识别结果（双击时间可修改，橙色 = 没听清、时间为估算）|||Alignment results (double-click times to edit; orange = estimated)|||同期結果（時刻をダブルクリックして修正・オレンジは推定）
+试听本句|||Audition line|||この行を試聴
+试听选中行|||Audition selected|||選択行を試聴
+该文件中没有音频轨道|||This file has no audio track|||このファイルには音声トラックがありません
+详细模式|||Detailed|||詳細モード
+语言|||Language|||言語
+请先在左边输入歌词，每行一句。|||Enter the lyrics on the left, one phrase per line.|||左側に歌詞を1行ずつ入力してください。
+请先输入有效时间。|||Enter a valid time first.|||有効な時刻を入力してください。
+请先选择歌词文件。|||Select a lyrics file first.|||先に歌詞ファイルを選択してください。
+请先选择音频文件。|||Select an audio file first.|||先に音声ファイルを選択してください。
+请导入或插入歌词；预览合并不会改变这里的原始行。|||Import or insert lyrics. Preview merging does not alter source lines.|||歌詞を読み込むか挿入してください。プレビューの結合は元の行を変更しません。
+请导入歌词；时间为原始歌词时间，不含预览的整体偏移。|||Import lyrics. Times exclude the preview's global offset.|||歌詞を読み込んでください。時刻にはプレビューの全体オフセットを含みません。
+越大文件越小；越小在播放软件里拖动/跳转越灵敏|||Longer intervals reduce file size; shorter intervals improve seeking.|||間隔が長いほど小容量に、短いほど再生時のシークが快適になります。
+越往外的行越透明，从「相邻行」线性过渡到「最远行」|||Fade from adjacent-line brightness to farthest-line brightness.|||隣接行から最遠行に向かって、徐々に薄く表示します。
+跟随播放选句|||Follow playback|||再生に合わせて選択
+输出 {p0}×{p1} · {p2:g} fps|||Output {p0}×{p1} · {p2:g} fps|||出力 {p0}×{p1}・{p2:g} fps
+输出视频文件路径（.mp4）|||Output video path (.mp4)|||出力動画のパス（.mp4）
+过渡动画|||Transition|||切り替えアニメーション
+这一行是正在演唱的歌词|||This is the line currently being sung|||この行が現在歌っている歌詞です
+这一行没有听清楚，时间是根据前后估算的，建议试听确认。|||This line was unclear; its times are estimated. Audition it to verify.|||この行は認識が不確かなため、前後から時刻を推定しています。試聴して確認してください。
+这个字体文件无法使用。|||This font file cannot be used.|||このフォントファイルは使用できません。
+这个文件里没有找到歌词。|||No lyrics were found in this file.|||このファイルに歌詞が見つかりません。
+这个歌词文件没有时间轴，现在自动识别吗？|||This lyrics file has no timestamps. Auto-align it now?|||この歌詞ファイルには時刻がありません。今すぐ自動同期しますか？
+这是当前行歌词|||This is the current lyric line|||これが現在の歌詞行です
+选择…|||Select…|||選択…
+选择字体文件|||Choose font file|||フォントファイルを選択
+选择歌曲音频（mp3 / wav / flac / m4a …）|||Choose audio (mp3 / wav / flac / m4a …)|||音声を選択（mp3 / wav / flac / m4a …）
+选择歌词|||Choose lyrics|||歌詞を選択
+选择歌词（lrc / srt / 纯文本 txt）|||Choose lyrics (LRC / SRT / plain TXT)|||歌詞を選択（LRC / SRT / テキストTXT）
+选择音频|||Choose audio|||音声を選択
+选择颜色|||Choose color|||色を選択
+重做|||Redo|||やり直す
+长句折行|||Long-line wrapping|||長い行の折り返し
+间奏判定|||Interlude threshold|||間奏の判定時間
+间奏较长时，上一句唱完后就把下一句移到中间（暗色等待），开唱前出现 ●●● 倒计时|||During long gaps, move the next line to the center, dimmed, then show a dot countdown before it starts.|||長い間奏では、次の行を中央に薄く表示し、歌い出しの前に丸印でカウントダウンします。
+需要下载模型|||Model download required|||モデルのダウンロードが必要です
+靠右|||Right|||右揃え
+靠左|||Left|||左揃え
+韩语|||Korean|||韓国語
+音频|||Audio|||音声
+音频 ({p0});;所有文件 (*.*)|||Audio ({p0});;All files (*.*)|||音声 ({p0});;すべてのファイル (*.*)
+音频已载入：{p0}  时长 {p1}|||Audio loaded: {p0}  Duration {p1}|||音声を読み込みました：{p0}・長さ{p1}
+音频：{p0}|||Audio: {p0}|||音声：{p0}
+高画质（QP 18）|||High quality (QP 18)|||高画質（QP 18）
+黑|||Black|||ブラック
+黑色|||Black|||黒
+（合并后 {p0} 行）||| ({p0} displayed after merging)|||（結合後{p0}行）
+（尚未保存）||| (not saved)|||（未保存）
+（请点「另存歌词」保存）||| (use Save lyrics as to save)|||（歌詞を別名で保存してください）
+，全部识别成功。|||; all lines aligned.|||、すべての行を同期しました。
+，其中 {p0} 行没听清（橙色），请检查。|||; please review {p0} uncertain lines (orange).|||、不確かな{p0}行（オレンジ）を確認してください。
+，已保存为 {p0}|||; saved as {p0}|||、{p0} に保存しました
+设置|||Settings|||設定
+界面语言…|||Interface language…|||表示言語…
+界面语言|||Interface language|||表示言語
+跟随系统|||Follow system|||システムに合わせる
+跟随系统时：中文系统显示中文，日文系统显示日文，其他系统显示英文。切换立即生效并自动记住，不改变歌词内容或识别语言。|||Follow system uses Chinese for Chinese systems, Japanese for Japanese systems, and English otherwise. Changes apply immediately and are remembered. Lyrics and recognition language are not changed.|||システムに合わせる場合、中国語環境では中国語、日本語環境では日本語、それ以外では英語を表示します。変更はすぐに反映・保存され、歌詞の内容や認識言語は変わりません。
+空格|||Space|||空白
+2560×1440（2K）|||2560×1440 (2K)|||2560×1440（2K）
+3840×2160（4K）|||3840×2160 (4K)|||3840×2160（4K）
+1024×768（4:3）|||1024×768 (4:3)|||1024×768（4:3）
+提词器预览|||Teleprompter preview|||プロンプター表示
+← 重新对轴|||← Re-align|||← 再同期
+① 导入与对轴|||① Import and align|||① 読み込みと同期
+② 格式与微调|||② Format and fine-tune|||② 書式と微調整
+⚠ 未对轴|||⚠ not timed|||⚠ 未同期
+⚠ 这是纯文本歌词（{p0} 行），没有时间轴。请点击「开始识别」自动对轴。|||⚠ Plain-text lyrics ({p0} lines) without timing. Click "Start alignment" to time them automatically.|||⚠ タイミングのないテキスト歌詞です（{p0} 行）。「自動同期を開始」をクリックしてください。
+亮度 / 透明度|||Brightness / opacity|||明るさ / 不透明度
+保存到当前歌词文件（Ctrl+S）|||Save to the current lyric file (Ctrl+S)|||現在の歌詞ファイルに保存（Ctrl+S）
+动画与时间|||Animation and timing|||アニメーションとタイミング
+可以直接把音频和歌词文件拖进窗口|||You can drag audio and lyric files into the window|||音声ファイルと歌詞ファイルをウィンドウにドラッグできます
+在这里粘贴或输入歌词，每行一句。\n标题、作者等不唱的行可以删掉，不删也会被自动识别为未演唱。|||Paste or type the lyrics here, one line per phrase.\nLines that are not sung (title, credits) can be removed; otherwise they are detected as not sung.|||ここに歌詞を貼り付けるか入力してください（1行1フレーズ）。\nタイトルや作者など歌わない行は削除できます。残しても未歌唱として自動判定されます。
+导入 TXT / LRC / SRT 歌词文件|||Import a TXT / LRC / SRT lyric file|||TXT / LRC / SRT 歌詞ファイルを読み込む
+导入文件…|||Import file…|||ファイルを読み込む…
+导入音频和歌词，自动识别时间轴|||Import audio and lyrics, then detect the timing automatically|||音声と歌詞を読み込み、タイミングを自動認識します
+已有时间轴，直接下一步 →|||Already timed, next step →|||同期済み、次へ →
+应用并进入下一步 →|||Apply and continue →|||適用して次へ →
+文字|||Text|||文字
+未导入歌词|||No lyrics imported|||歌詞が読み込まれていません
+未选择音频|||No audio selected|||音声が選択されていません
+本句微调|||Fine-tune line|||行の微調整
+歌词与时间轴|||Lyrics and timing|||歌詞とタイミング
+歌词已经带时间轴（LRC / SRT）时，跳过自动识别|||Skip automatic recognition when the lyrics are already timed (LRC / SRT)|||歌詞にタイミングがある場合（LRC / SRT）は自動認識をスキップします
+清空|||Clear|||クリア
+用剪贴板中的文字替换左侧歌词|||Replace the lyrics with the clipboard text|||クリップボードのテキストで歌詞を置き換えます
+画面|||Canvas|||画面
+粘贴|||Paste|||貼り付け
+编辑原始歌词行（不受预览短句合并影响）|||Edits the original lyric lines (not affected by short-line merging in the preview)|||元の歌詞行を編集します（プレビューの短い行の結合の影響を受けません）
+视频输出|||Video output|||動画出力
+设置提词器画面格式，微调时间轴并导出视频|||Set the teleprompter format, fine-tune timing and export the video|||プロンプターの書式を設定し、タイミングを微調整して動画を書き出します
+项目|||Project|||プロジェクト
+，已带时间轴，可以直接进入下一步。|||, already timed; you can go straight to the next step.|||。タイミング付きなので、そのまま次へ進めます。

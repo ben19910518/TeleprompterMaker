@@ -1,0 +1,1518 @@
+{
+  "  当前行": {
+    "en": "  Current line",
+    "ja": "  現在の行"
+  },
+  " 句": {
+    "en": " lines",
+    "ja": " 行"
+  },
+  " 字以内": {
+    "en": " chars or fewer",
+    "ja": " 文字以内"
+  },
+  " 秒": {
+    "en": " s",
+    "ja": " 秒"
+  },
+  " 自动": {
+    "en": " Auto",
+    "ja": " 自動"
+  },
+  " 行": {
+    "en": " lines",
+    "ja": " 行"
+  },
+  "1080×1920（竖屏）": {
+    "en": "1080×1920 (portrait)",
+    "ja": "1080×1920（縦画面）"
+  },
+  "1280×720（横屏 720p）": {
+    "en": "1280×720 (landscape 720p)",
+    "ja": "1280×720（横画面 720p）"
+  },
+  "1920×1080（横屏 1080p）": {
+    "en": "1920×1080 (landscape 1080p)",
+    "ja": "1920×1080（横画面 1080p）"
+  },
+  "AMD AMF（显卡加速）": {
+    "en": "AMD AMF (GPU)",
+    "ja": "AMD AMF（GPU）"
+  },
+  "CPU，一首歌约 1~2 分钟": {
+    "en": "CPU; about 1–2 minutes per song",
+    "ja": "CPU・1曲あたり約1～2分"
+  },
+  "H.264 固定量化（CQP）编码：画面几乎不动的提词器视频体积会非常小": {
+    "en": "H.264 constant-QP encoding keeps mostly static teleprompter videos small.",
+    "ja": "H.264固定量子化（CQP）により、動きの少ないプロンプター動画の容量を抑えます。"
+  },
+  "HuggingFace（海外）": {
+    "en": "Hugging Face",
+    "ja": "Hugging Face"
+  },
+  "Intel QSV（核显加速）": {
+    "en": "Intel QSV (integrated GPU)",
+    "ja": "Intel QSV（内蔵GPU）"
+  },
+  "LRC 歌词 (*.lrc)": {
+    "en": "LRC lyrics (*.lrc)",
+    "ja": "LRC歌詞 (*.lrc)"
+  },
+  "LRC 歌词 (*.lrc);;SRT 字幕 (*.srt)": {
+    "en": "LRC lyrics (*.lrc);;SRT subtitles (*.srt)",
+    "ja": "LRC歌詞 (*.lrc);;SRT字幕 (*.srt)"
+  },
+  "Large-v3 Turbo（推荐，准确）": {
+    "en": "Large-v3 Turbo (recommended)",
+    "ja": "Large-v3 Turbo（推奨）"
+  },
+  "MP4 视频 (*.mp4);;MOV 视频 (*.mov);;MKV 视频 (*.mkv)": {
+    "en": "MP4 video (*.mp4);;MOV video (*.mov);;MKV video (*.mkv)",
+    "ja": "MP4動画 (*.mp4);;MOV動画 (*.mov);;MKV動画 (*.mkv)"
+  },
+  "ModelScope 魔搭（国内推荐）": {
+    "en": "ModelScope (recommended in China)",
+    "ja": "ModelScope（中国で推奨）"
+  },
+  "NVIDIA NVENC（显卡加速）": {
+    "en": "NVIDIA NVENC (GPU)",
+    "ja": "NVIDIA NVENC（GPU）"
+  },
+  "QP 值": {
+    "en": "QP value",
+    "ja": "QP値"
+  },
+  "SRT 字幕 (*.srt)": {
+    "en": "SRT subtitles (*.srt)",
+    "ja": "SRT字幕 (*.srt)"
+  },
+  "Small（较快，准确度一般）": {
+    "en": "Small (faster, less accurate)",
+    "ja": "Small（高速・精度は控えめ）"
+  },
+  "_提词器.mp4": {
+    "en": "_teleprompter.mp4",
+    "ja": "_プロンプター.mp4"
+  },
+  "hf-mirror 镜像": {
+    "en": "hf-mirror",
+    "ja": "hf-mirror"
+  },
+  "pinyin 爱 -> {p0}": {
+    "en": "pinyin test -> {p0}",
+    "ja": "ピンインテスト -> {p0}"
+  },
+  "x264 速度": {
+    "en": "x264 preset",
+    "ja": "x264プリセット"
+  },
+  "x264（CPU，兼容性最好）": {
+    "en": "x264 (CPU, widest compatibility)",
+    "ja": "x264（CPU・高い互換性）"
+  },
+  "{p0}\n\n详细信息已写入：\n{p1}": {
+    "en": "{p0}\n\nDetails have been written to:\n{p1}",
+    "ja": "{p0}\n\n詳細を次のファイルに記録しました：\n{p1}"
+  },
+  "{p0}\n已经存在，要覆盖吗？": {
+    "en": "{p0}\nAlready exists. Overwrite it?",
+    "ja": "{p0}\nは既に存在します。上書きしますか？"
+  },
+  "{p0}   例：在春天{p1}在夏天": {
+    "en": "{p0}   Example: Spring{p1}Summer",
+    "ja": "{p0}   例：春に{p1}夏に"
+  },
+  "{p0}  约{p1}MB": {
+    "en": "{p0}  ~{p1} MB",
+    "ja": "{p0}  約{p1} MB"
+  },
+  "{p0} 下载不完整（{p1}/{p2} 字节），请重试": {
+    "en": "Incomplete download: {p0} ({p1}/{p2} bytes). Please retry.",
+    "ja": "{p0} のダウンロードが不完全です（{p1}/{p2}バイト）。再試行してください。"
+  },
+  "{p0} 句": {
+    "en": "{p0} lines",
+    "ja": "{p0} 行"
+  },
+  "{p0}_自动识别{p1}.lrc": {
+    "en": "{p0}_aligned{p1}.lrc",
+    "ja": "{p0}_自動同期{p1}.lrc"
+  },
+  "① 文件": {
+    "en": "① Files",
+    "ja": "① ファイル"
+  },
+  "② 画面": {
+    "en": "② Canvas",
+    "ja": "② 画面"
+  },
+  "③ 文字": {
+    "en": "③ Text",
+    "ja": "③ 文字"
+  },
+  "④ 亮度 / 透明度": {
+    "en": "④ Brightness / opacity",
+    "ja": "④ 明るさと不透明度"
+  },
+  "⑤ 动画与时间": {
+    "en": "⑤ Animation / timing",
+    "ja": "⑤ アニメーションと時間"
+  },
+  "⑥ 短句合并": {
+    "en": "⑥ Short-line merging",
+    "ja": "⑥ 短い行の結合"
+  },
+  "⑦ 视频输出": {
+    "en": "⑦ Video output",
+    "ja": "⑦ 動画出力"
+  },
+  "▶ 播放": {
+    "en": "▶ Play",
+    "ja": "▶ 再生"
+  },
+  "◀ 上一句": {
+    "en": "◀ Previous",
+    "ja": "◀ 前の行"
+  },
+  "⚠ 这是纯文本歌词（{p0} 行），没有时间轴。请点击下方「自动识别时间轴」。在那之前预览按每行 3 秒临时显示。": {
+    "en": "⚠ Plain-text lyrics ({p0} lines) have no timestamps. Use Auto-align lyrics below. The preview temporarily assigns 3 seconds per line.",
+    "ja": "⚠ テキスト歌詞（{p0}行）には時刻がありません。下の「歌詞の自動同期」を実行してください。それまでは仮に1行3秒で表示します。"
+  },
+  "✓ {p0} 歌词，共 {p1} 句": {
+    "en": "✓ {p0} lyrics, {p1} lines",
+    "ja": "✓ {p0}歌詞・{p1}行"
+  },
+  "✓ 已下载": {
+    "en": "✓ Installed",
+    "ja": "✓ ダウンロード済み"
+  },
+  "✓ 已生成 {p0}（{p1:.1f} MB，{p2}，用时 {p3:.0f} 秒）": {
+    "en": "✓ Created {p0} ({p1:.1f} MB, {p2}, took {p3:.0f} s)",
+    "ja": "✓ {p0} を作成しました（{p1:.1f} MB・{p2}・処理時間{p3:.0f}秒）"
+  },
+  "✓ 自动识别的时间轴，共 {p0} 句": {
+    "en": "✓ Auto-aligned timestamps, {p0} lines",
+    "ja": "✓ 自動同期した歌詞・{p0}行"
+  },
+  "❚❚ 暂停": {
+    "en": "❚❚ Pause",
+    "ja": "❚❚ 一時停止"
+  },
+  "一句歌词太长被折成两行时，这两行之间的距离（比行间距更紧，才能看出是同一句）": {
+    "en": "Spacing within a wrapped lyric line, tighter than the gap between separate lines.",
+    "ja": "長い歌詞を折り返した際の間隔です。別の歌詞行の間隔より狭くして、同じ歌詞だと分かるようにします。"
+  },
+  "上下行字号 = 中间行字号 × 比例": {
+    "en": "Surrounding font size = current-line font size × ratio.",
+    "ja": "前後の行の文字サイズ＝現在行の文字サイズ×比率です。"
+  },
+  "上下行字号略小、透明度递减": {
+    "en": "Surrounding lines are smaller and fade toward the edges",
+    "ja": "前後の行は小さく、端に近づくほど薄く表示します"
+  },
+  "上下行比例": {
+    "en": "Surrounding size",
+    "ja": "前後行のサイズ比率"
+  },
+  "上下边缘渐隐": {
+    "en": "Fade at edges",
+    "ja": "上下端のフェード"
+  },
+  "上下边距": {
+    "en": "Vertical margin",
+    "ja": "上下余白"
+  },
+  "上方显示 {p0} 句": {
+    "en": "{p0} lines above",
+    "ja": "上に{p0}行表示"
+  },
+  "上方（已经唱过的）歌词再额外调暗": {
+    "en": "Further dim the lines that have already been sung.",
+    "ja": "上側の歌い終わった行をさらに暗くします。"
+  },
+  "下一句 ▶": {
+    "en": "Next ▶",
+    "ja": "次の行 ▶"
+  },
+  "下载失败：{p0}\n可以换一个下载源再试。": {
+    "en": "Download failed: {p0}\nTry another download source.",
+    "ja": "ダウンロード失敗：{p0}\n別のダウンロード元で再試行してください。"
+  },
+  "下载模型": {
+    "en": "Download model",
+    "ja": "モデルをダウンロード"
+  },
+  "下载源": {
+    "en": "Source",
+    "ja": "ダウンロード元"
+  },
+  "不包含音频（静音视频）": {
+    "en": "No audio (silent video)",
+    "ja": "音声なし（無音動画）"
+  },
+  "不折行（缩小字号）": {
+    "en": "No wrapping (shrink text)",
+    "ja": "折り返さない（文字を縮小）"
+  },
+  "两句之间停顿超过这个时间就不合并": {
+    "en": "Do not merge lines when their gap exceeds this duration.",
+    "ja": "行間の空白がこの時間を超える場合は結合しません。"
+  },
+  "两句之间空白超过这个时间才算间奏": {
+    "en": "Treat gaps longer than this as an interlude.",
+    "ja": "この時間を超える空白を間奏とみなします。"
+  },
+  "两句歌词之间的距离，按字号的百分比": {
+    "en": "Space between lyric lines, as a percentage of the font size.",
+    "ja": "歌詞行の間隔です。文字サイズに対する比率で指定します。"
+  },
+  "中文": {
+    "en": "Chinese",
+    "ja": "中国語"
+  },
+  "中文/日文一个字算 1，英文字母算 0.5": {
+    "en": "Chinese/Japanese characters count as 1; Latin letters as 0.5.",
+    "ja": "中国語・日本語の文字は1、英字は0.5として数えます。"
+  },
+  "中等": {
+    "en": "Medium",
+    "ja": "中"
+  },
+  "中间行 {p0:.0f}px / 上下行 {p1:.0f}px": {
+    "en": "Current line {p0:.0f}px / surrounding {p1:.0f}px",
+    "ja": "現在行{p0:.0f}px・前後行{p1:.0f}px"
+  },
+  "中间行字号": {
+    "en": "Current-line size",
+    "ja": "現在行の文字サイズ"
+  },
+  "估算": {
+    "en": "Estimated",
+    "ja": "推定"
+  },
+  "体积小、速度快，但歌声识别容易出错": {
+    "en": "Small and fast, but less reliable for singing.",
+    "ja": "小型で高速ですが、歌声の認識精度は低めです。"
+  },
+  "使用未安装的字体（.ttf/.otf）。也可以把字体文件放进程序目录的 fonts 文件夹，启动时自动加载": {
+    "en": "Load a font file (.ttf/.otf), or place fonts in the app's fonts folder to load them at startup.",
+    "ja": "未インストールのフォント（.ttf/.otf）を読み込みます。アプリのfontsフォルダーに置くと起動時に自動で読み込まれます。"
+  },
+  "例如「在春天」「在夏天」会显示为「在春天 ／ 在夏天」，正在唱的部分高亮": {
+    "en": "For example, Spring and Summer become Spring / Summer, with the active part highlighted.",
+    "ja": "例：「春に」と「夏に」を「春に ／ 夏に」と結合し、歌っている部分を強調します。"
+  },
+  "例如上方 2 句、下方 4 句，可以让演员看到更多即将要唱的歌词": {
+    "en": "For example, show 2 lines above and 4 below to give more advance notice.",
+    "ja": "例：上に2行、下に4行を表示すると、これから歌う歌詞を多く確認できます。"
+  },
+  "例如标题、作者这类不唱的行，可以在这里直接删掉": {
+    "en": "Remove lines that are not sung, such as titles and credits.",
+    "ja": "曲名や作詞者など、歌わない行を削除できます。"
+  },
+  "保存为 LRC…": {
+    "en": "Save LRC…",
+    "ja": "LRCで保存…"
+  },
+  "保存为 SRT…": {
+    "en": "Save SRT…",
+    "ja": "SRTで保存…"
+  },
+  "保存到": {
+    "en": "Save to",
+    "ja": "保存先"
+  },
+  "保存歌词": {
+    "en": "Save lyrics",
+    "ja": "歌詞を保存"
+  },
+  "保存歌词失败": {
+    "en": "Could not save lyrics",
+    "ja": "歌詞を保存できません"
+  },
+  "保存视频": {
+    "en": "Save video",
+    "ja": "動画を保存"
+  },
+  "修改歌词，支持原文与翻译分行；应用修改、切换句子或保存时生效": {
+    "en": "Edit lyrics; translations may use a new line. Apply, select another line, or save to commit.",
+    "ja": "歌詞を編集できます。訳文は改行して入力できます。適用・行の切り替え・保存で変更が確定します。"
+  },
+  "倒计时": {
+    "en": "Countdown",
+    "ja": "カウントダウン"
+  },
+  "全屏预览": {
+    "en": "Full screen",
+    "ja": "全画面プレビュー"
+  },
+  "全屏预览（Esc 退出，空格 播放/暂停）": {
+    "en": "Full-screen preview (Esc: exit; Space: play/pause)",
+    "ja": "全画面プレビュー（Escで終了・スペースで再生／一時停止）"
+  },
+  "关键帧间隔": {
+    "en": "Keyframe interval",
+    "ja": "キーフレーム間隔"
+  },
+  "关闭": {
+    "en": "Close",
+    "ja": "閉じる"
+  },
+  "再见": {
+    "en": "Goodbye",
+    "ja": "さようなら"
+  },
+  "准备中…": {
+    "en": "Preparing…",
+    "ja": "準備中…"
+  },
+  "出错了": {
+    "en": "Error",
+    "ja": "エラー"
+  },
+  "分:秒.毫秒": {
+    "en": "mm:ss.mmm",
+    "ja": "分:秒.ミリ秒"
+  },
+  "分辨率": {
+    "en": "Resolution",
+    "ja": "解像度"
+  },
+  "分隔符": {
+    "en": "Separator",
+    "ja": "区切り文字"
+  },
+  "删除本句": {
+    "en": "Delete line",
+    "ja": "この行を削除"
+  },
+  "删除选中行": {
+    "en": "Delete selected",
+    "ja": "選択行を削除"
+  },
+  "前奏/间奏提示": {
+    "en": "Intro / interlude",
+    "ja": "前奏と間奏の案内"
+  },
+  "加载字体文件…": {
+    "en": "Load font…",
+    "ja": "フォントを読み込む…"
+  },
+  "加载音频和歌词后即可预览真实效果": {
+    "en": "Load audio and lyrics to preview your result",
+    "ja": "音声と歌詞を読み込むと実際の表示を確認できます"
+  },
+  "动画时长": {
+    "en": "Animation duration",
+    "ja": "アニメーション時間"
+  },
+  "勾选「自动铺满屏幕」时，按显示行数自动算出最大的字号": {
+    "en": "Automatically choose the largest font size that fits the visible lines.",
+    "ja": "表示行数に合わせて、画面に収まる最大の文字サイズを自動で選びます。"
+  },
+  "半粗": {
+    "en": "Semibold",
+    "ja": "セミボールド"
+  },
+  "半细": {
+    "en": "Semilight",
+    "ja": "セミライト"
+  },
+  "原始歌词（点击跳转，双击编辑）": {
+    "en": "Source lyrics (click to seek; double-click to edit)",
+    "ja": "元の歌詞（クリックで移動・ダブルクリックで編集）"
+  },
+  "取消": {
+    "en": "Cancel",
+    "ja": "キャンセル"
+  },
+  "句尾不能超过下一句开始；请先调整相邻句。": {
+    "en": "The end must not pass the next line's start. Adjust the adjacent line first.",
+    "ja": "終了時刻は次の行の開始時刻を超えられません。先に隣の行を調整してください。"
+  },
+  "另存歌词": {
+    "en": "Save lyrics as",
+    "ja": "歌詞に名前を付けて保存"
+  },
+  "另存歌词…": {
+    "en": "Save lyrics as…",
+    "ja": "歌詞を別名で保存…"
+  },
+  "只有音频和纯文本歌词时，自动听歌给每一行歌词配上时间，并可保存为 LRC / SRT": {
+    "en": "Align plain-text lyrics to audio, then save the timestamps as LRC or SRT.",
+    "ja": "音声とテキスト歌詞から各行の時刻を自動設定し、LRCまたはSRTで保存できます。"
+  },
+  "可信度": {
+    "en": "Confidence",
+    "ja": "信頼度"
+  },
+  "合并行中当前没在唱的那几句的亮度，用来区分正在唱的是哪一句": {
+    "en": "Brightness of inactive parts within a merged line.",
+    "ja": "結合行の中で、まだ歌っていない部分の明るさです。"
+  },
+  "后插一句": {
+    "en": "Insert after",
+    "ja": "後に行を挿入"
+  },
+  "啦啦啦": {
+    "en": "La la la",
+    "ja": "ラララ"
+  },
+  "国H字": {
+    "en": "国H字",
+    "ja": "国H字"
+  },
+  "在第二块屏幕（或当前屏幕）全屏显示，用来在真实提词屏上检查效果": {
+    "en": "Preview on a second screen, or the current screen, to check the actual teleprompter display.",
+    "ja": "第2画面または現在の画面に全画面表示して、実際のプロンプターで確認します。"
+  },
+  "声卡不可用，静音预览：{p0}": {
+    "en": "Audio device unavailable; silent preview: {p0}",
+    "ja": "音声デバイスが使えないため無音でプレビューします：{p0}"
+  },
+  "字与字之间额外的距离，按字号的百分比": {
+    "en": "Extra character spacing, as a percentage of the font size.",
+    "ja": "追加の文字間隔です。文字サイズに対する比率で指定します。"
+  },
+  "字体": {
+    "en": "Font",
+    "ja": "フォント"
+  },
+  "字体 (*.ttf *.otf *.ttc *.otc)": {
+    "en": "Fonts (*.ttf *.otf *.ttc *.otc)",
+    "ja": "フォント (*.ttf *.otf *.ttc *.otc)"
+  },
+  "字体自带的粗细；字体本身较细时可在详细模式里加「描边」使其更粗": {
+    "en": "Choose a font weight. Outline in Detailed mode can make thin text heavier.",
+    "ja": "フォントの太さを選びます。細い場合は詳細モードの縁取りで補えます。"
+  },
+  "字重": {
+    "en": "Weight",
+    "ja": "太さ"
+  },
+  "字间距": {
+    "en": "Character spacing",
+    "ja": "文字間隔"
+  },
+  "完成": {
+    "en": "Done",
+    "ja": "完了"
+  },
+  "完成：共 {p0} 行": {
+    "en": "Done: {p0} lines",
+    "ja": "完了：{p0}行"
+  },
+  "对提词器这种静态画面，veryfast 和 slow 体积几乎一样，veryfast 快很多": {
+    "en": "For mostly static lyrics, veryfast produces a similar size to slow and runs much faster.",
+    "ja": "動きの少ない歌詞画面では、veryfastはslowとほぼ同じ容量で、処理が大幅に速くなります。"
+  },
+  "对齐": {
+    "en": "Alignment",
+    "ja": "文字揃え"
+  },
+  "小文件（QP 27）": {
+    "en": "Smaller file (QP 27)",
+    "ja": "小さいファイル（QP 27）"
+  },
+  "居中": {
+    "en": "Center",
+    "ja": "中央揃え"
+  },
+  "屏幕上同时显示的歌词句数（例如 7：当前句 + 上下各 3 句）": {
+    "en": "Number of visible lines; e.g. 7 means the current line plus 3 above and 3 below.",
+    "ja": "同時に表示する行数です。7行なら現在行と上下各3行を表示します。"
+  },
+  "左右边距": {
+    "en": "Horizontal margin",
+    "ja": "左右余白"
+  },
+  "已保存：{p0}": {
+    "en": "Saved: {p0}",
+    "ja": "保存しました：{p0}"
+  },
+  "已删除 {p0} 行，剩余 {p1} 行。": {
+    "en": "Deleted {p0} lines; {p1} remaining.",
+    "ja": "{p0}行を削除しました。残り{p1}行です。"
+  },
+  "已删除歌词，可撤销": {
+    "en": "Line deleted; undo is available",
+    "ja": "歌詞行を削除しました。元に戻せます"
+  },
+  "已取消": {
+    "en": "Cancelled",
+    "ja": "キャンセルしました"
+  },
+  "已取消下载（再次下载会从断点继续）": {
+    "en": "Download cancelled (resumes next time)",
+    "ja": "ダウンロードを中止しました（次回は続きから再開）"
+  },
+  "已唱过的行": {
+    "en": "Past lines",
+    "ja": "歌い終わった行"
+  },
+  "已应用到当前项目。": {
+    "en": "Applied to the current project.",
+    "ja": "現在のプロジェクトに適用しました。"
+  },
+  "已应用歌词修改": {
+    "en": "Lyric changes applied",
+    "ja": "歌詞の変更を適用しました"
+  },
+  "已插入歌词": {
+    "en": "Line inserted",
+    "ja": "歌詞行を挿入しました"
+  },
+  "帧率": {
+    "en": "Frame rate",
+    "ja": "フレームレート"
+  },
+  "常规": {
+    "en": "Regular",
+    "ja": "標準"
+  },
+  "平滑滚动（关闭可减小文件）": {
+    "en": "Smooth scrolling (off for smaller files)",
+    "ja": "滑らかなスクロール（無効にすると容量を削減）"
+  },
+  "应用修改": {
+    "en": "Apply changes",
+    "ja": "変更を適用"
+  },
+  "应用到当前项目": {
+    "en": "Apply to project",
+    "ja": "プロジェクトに適用"
+  },
+  "开启": {
+    "en": "Enabled",
+    "ja": "有効"
+  },
+  "开头 +": {
+    "en": "Start +",
+    "ja": "開始 +"
+  },
+  "开头 −": {
+    "en": "Start −",
+    "ja": "開始 −"
+  },
+  "开始": {
+    "en": "Start",
+    "ja": "開始"
+  },
+  "开始时间必须按顺序排列，并与下一句至少相隔 10ms。": {
+    "en": "Start times must be ordered with at least 10ms before the next line.",
+    "ja": "開始時刻は順番どおりにし、次の行と10ms以上の間隔を空けてください。"
+  },
+  "开始时间必须是非负有限数值。": {
+    "en": "Start time must be a finite number greater than or equal to zero.",
+    "ja": "開始時刻には0以上の有限な数値を入力してください。"
+  },
+  "开始识别": {
+    "en": "Start alignment",
+    "ja": "自動同期を開始"
+  },
+  "当一句歌词太长超出屏幕宽度时会自动折成两行显示并且行距更紧凑": {
+    "en": "Long lyrics wrap onto two lines with tighter spacing",
+    "ja": "長い歌詞は2行に折り返して、行間を詰めて表示します"
+  },
+  "当前没有带时间轴的歌词。": {
+    "en": "No timestamped lyrics are available.",
+    "ja": "時刻付きの歌詞がありません。"
+  },
+  "当前行位置": {
+    "en": "Current-line position",
+    "ja": "現在行の位置"
+  },
+  "当前行可以单独设一个颜色（例如黄色）以便一眼找到": {
+    "en": "Give the current line its own color, such as yellow, to make it easy to find.",
+    "ja": "現在行に黄色など別の色を指定して、見つけやすくできます。"
+  },
+  "微软雅黑": {
+    "en": "微软雅黑",
+    "ja": "微软雅黑"
+  },
+  "手动": {
+    "en": "Manual",
+    "ja": "手動"
+  },
+  "打开所在文件夹": {
+    "en": "Open folder",
+    "ja": "保存先フォルダーを開く"
+  },
+  "扣除整体偏移后时间小于零，不能打点。": {
+    "en": "The time is negative after removing the global offset; cannot set a timestamp.",
+    "ja": "全体オフセットを差し引くと時刻が負になるため、打刻できません。"
+  },
+  "把当前时间轴保存为 LRC 或 SRT": {
+    "en": "Save the current timestamps as LRC or SRT.",
+    "ja": "現在の時刻情報をLRCまたはSRTで保存します。"
+  },
+  "把歌词按「一行一句」粘贴或修改在左边（标题、作者等不唱的行可以删掉，不删也会被自动识别为未演唱），然后点「开始识别」。程序会听歌并给每一行配上时间，结果可以在右侧检查和修改。": {
+    "en": "Paste the lyrics on the left, one phrase per line, then start alignment. Remove titles and credits that are not sung. Review and edit the resulting timestamps on the right.",
+    "ja": "左側に歌詞を1行ずつ貼り付けて、自動同期を開始してください。曲名や作詞者など歌わない行は削除できます。右側で結果の時刻を確認・修正できます。"
+  },
+  "折行行距": {
+    "en": "Wrapped-line spacing",
+    "ja": "折り返しの行間"
+  },
+  "描边": {
+    "en": "Outline",
+    "ja": "縁取り"
+  },
+  "提前切换": {
+    "en": "Advance timing",
+    "ja": "先行表示"
+  },
+  "提前显示下一句并倒计时": {
+    "en": "Preview next line with countdown",
+    "ja": "次の行を先に表示してカウントダウン"
+  },
+  "提示：可以直接把音频和歌词文件拖进窗口。空格键播放/暂停，←→ 快退快进，↑↓ 上一句/下一句。": {
+    "en": "Tip: Drop audio or lyrics here. Space: play/pause; ←→: seek; ↑↓: previous/next line.",
+    "ja": "音声や歌詞ファイルをドラッグして読み込めます。スペース：再生／一時停止、←→：移動、↑↓：前／次の行。"
+  },
+  "提词器屏幕播放": {
+    "en": "Teleprompter playback",
+    "ja": "プロンプター画面の再生"
+  },
+  "提词器画面变化很少，30 fps 足够；需要配合其它素材时选同样的帧率": {
+    "en": "30 fps is usually sufficient. Match the frame rate of other footage when needed.",
+    "ja": "通常は30fpsで十分です。他の映像と組み合わせる場合はフレームレートを合わせてください。"
+  },
+  "提词器视频生成工具": {
+    "en": "Teleprompter Maker",
+    "ja": "プロンプター動画作成"
+  },
+  "提词器预览示例": {
+    "en": "Teleprompter preview example",
+    "ja": "プロンプターの表示例"
+  },
+  "插入歌词": {
+    "en": "Insert lyric line",
+    "ja": "歌詞行を挿入"
+  },
+  "撤销": {
+    "en": "Undo",
+    "ja": "元に戻す"
+  },
+  "播放视频": {
+    "en": "Play video",
+    "ja": "動画を再生"
+  },
+  "数值越小画质越好、文件越大。18 接近无损，22 推荐，28 以上文字边缘会有毛刺": {
+    "en": "Lower values improve quality and increase size. 18 is near lossless; 22 is recommended; values over 28 may roughen text edges.",
+    "ja": "値が小さいほど高画質・大容量です。18はほぼ無劣化、推奨は22です。28を超えると文字の輪郭が荒れる場合があります。"
+  },
+  "整体偏移": {
+    "en": "Global offset",
+    "ja": "全体オフセット"
+  },
+  "文件已存在": {
+    "en": "File already exists",
+    "ja": "ファイルが存在します"
+  },
+  "文字描边宽度和颜色；颜色设为与文字相同可以让字变得更粗": {
+    "en": "Text outline width and color; matching the text color makes the letters heavier.",
+    "ja": "文字の縁取り幅と色です。文字と同じ色にすると太く見せられます。"
+  },
+  "文字颜色": {
+    "en": "Text colors",
+    "ja": "文字色"
+  },
+  "新句内容（插入到选中句后）：": {
+    "en": "New text (inserted after the selected line):",
+    "ja": "新しい歌詞（選択行の後に挿入）："
+  },
+  "无法加载": {
+    "en": "Could not load",
+    "ja": "読み込めません"
+  },
+  "无法读取歌词文件：{p0}": {
+    "en": "Could not read lyrics: {p0}",
+    "ja": "歌詞ファイルを読み込めません：{p0}"
+  },
+  "无法读取音频时长": {
+    "en": "Could not read audio duration",
+    "ja": "音声の長さを取得できません"
+  },
+  "无法读取音频：{p0}": {
+    "en": "Could not read audio: {p0}",
+    "ja": "音声を読み込めません：{p0}"
+  },
+  "日语": {
+    "en": "Japanese",
+    "ja": "日本語"
+  },
+  "时长 {p0}": {
+    "en": "Duration {p0}",
+    "ja": "長さ {p0}"
+  },
+  "时间不能小于零。": {
+    "en": "Time cannot be negative.",
+    "ja": "時刻を負の値にはできません。"
+  },
+  "时间格式错误，请输入 分:秒.毫秒 或秒数。": {
+    "en": "Invalid time. Enter mm:ss.mmm or seconds.",
+    "ja": "時刻の形式が正しくありません。分:秒.ミリ秒、または秒数で入力してください。"
+  },
+  "是否保存当前歌词的修改？": {
+    "en": "Save the changes to the current lyrics?",
+    "ja": "現在の歌詞の変更を保存しますか？"
+  },
+  "显卡加速": {
+    "en": "GPU acceleration",
+    "ja": "GPU高速化"
+  },
+  "显卡编码更快；x264 兼容性最好、文件最小": {
+    "en": "GPU encoding is faster; x264 offers broad compatibility and small files.",
+    "ja": "GPUエンコードは高速です。x264は互換性が高く、容量を抑えられます。"
+  },
+  "显示行数": {
+    "en": "Visible lines",
+    "ja": "表示行数"
+  },
+  "最多 2 行": {
+    "en": "Up to 2 rows",
+    "ja": "最大2行"
+  },
+  "最多 3 行": {
+    "en": "Up to 3 rows",
+    "ja": "最大3行"
+  },
+  "最多合并": {
+    "en": "Maximum merged lines",
+    "ja": "最大結合行数"
+  },
+  "最大间隔": {
+    "en": "Maximum gap",
+    "ja": "最大間隔"
+  },
+  "最远行亮度": {
+    "en": "Farthest-line brightness",
+    "ja": "最遠行の明るさ"
+  },
+  "未下载": {
+    "en": "Not installed",
+    "ja": "未ダウンロード"
+  },
+  "未保存修改 · ": {
+    "en": "Unsaved changes · ",
+    "ja": "未保存の変更 · "
+  },
+  "未唱部分亮度": {
+    "en": "Inactive-part brightness",
+    "ja": "未歌唱部分の明るさ"
+  },
+  "极细": {
+    "en": "Thin",
+    "ja": "極細"
+  },
+  "标准（QP 22，推荐）": {
+    "en": "Standard (QP 22, recommended)",
+    "ja": "標準（QP 22・推奨）"
+  },
+  "模型下载完成。": {
+    "en": "Model download complete.",
+    "ja": "モデルのダウンロードが完了しました。"
+  },
+  "歌词": {
+    "en": "Lyrics",
+    "ja": "歌詞"
+  },
+  "歌词/字幕 (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;所有文件 (*.*)": {
+    "en": "Lyrics/subtitles (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;All files (*.*)",
+    "ja": "歌詞・字幕 (*.lrc *.srt *.vtt *.ass *.ssa *.txt);;すべてのファイル (*.*)"
+  },
+  "歌词为空": {
+    "en": "Lyrics are empty",
+    "ja": "歌詞が空です"
+  },
+  "歌词内容不能为空；删除整句请使用「删除本句」。": {
+    "en": "Lyrics cannot be empty. Use Delete line to remove the whole line.",
+    "ja": "歌詞を空にはできません。行全体を消す場合は「この行を削除」を使ってください。"
+  },
+  "歌词尚未保存": {
+    "en": "Unsaved lyrics",
+    "ja": "未保存の歌詞"
+  },
+  "歌词整体比音乐早/晚时用来校正：正数 = 歌词推后": {
+    "en": "Correct a global sync difference. Positive values delay the lyrics.",
+    "ja": "歌詞全体のずれを補正します。正の値で歌詞の表示を遅らせます。"
+  },
+  "歌词文本（每行一句）": {
+    "en": "Lyric text (one phrase per line)",
+    "ja": "歌詞テキスト（1行に1フレーズ）"
+  },
+  "歌词编辑 · 原始行（不受预览短句合并影响）": {
+    "en": "Lyric editor · Source lines",
+    "ja": "歌詞編集 · 元の行（プレビューの結合とは独立）"
+  },
+  "歌词还没有时间轴（目前是每行 3 秒的临时时间）。\n先去自动识别时间轴吗？": {
+    "en": "The lyrics have no timestamps (using temporary 3-second lines).\nAuto-align them first?",
+    "ja": "歌詞に時刻がありません（仮に1行3秒で表示中）。\n先に歌詞の自動同期を実行しますか？"
+  },
+  "正在下载模型 {p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s": {
+    "en": "Downloading model: {p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s",
+    "ja": "モデルをダウンロード中：{p0:.0f}/{p1:.0f} MB  {p2:.1f} MB/s"
+  },
+  "正在分析画面…": {
+    "en": "Analyzing frames…",
+    "ja": "画面を解析中…"
+  },
+  "正在加载识别模型（首次约需 10 秒）…": {
+    "en": "Loading model (first load may take about 10 seconds)…",
+    "ja": "認識モデルを読み込み中（初回は約10秒）…"
+  },
+  "正在取消…": {
+    "en": "Cancelling…",
+    "ja": "キャンセル中…"
+  },
+  "正在处理": {
+    "en": "Processing",
+    "ja": "処理中"
+  },
+  "正在处理中，确定要取消并关闭吗？": {
+    "en": "Processing is in progress. Cancel and close?",
+    "ja": "処理中です。中止して閉じますか？"
+  },
+  "正在对齐歌词…": {
+    "en": "Aligning lyrics…",
+    "ja": "歌詞を同期中…"
+  },
+  "正在生成": {
+    "en": "Export in progress",
+    "ja": "動画を作成中"
+  },
+  "正在生成…": {
+    "en": "Exporting…",
+    "ja": "作成中…"
+  },
+  "正在生成视频… {p0}/{p1} 帧": {
+    "en": "Exporting video… {p0}/{p1} frames",
+    "ja": "動画を作成中… {p0}/{p1}フレーム"
+  },
+  "正在补充识别漏掉的句子… {p0}/{p1}": {
+    "en": "Refining missed lines… {p0}/{p1}",
+    "ja": "認識できなかった行を再認識中… {p0}/{p1}"
+  },
+  "正在识别歌声（{p0}）…": {
+    "en": "Recognizing vocals ({p0})…",
+    "ja": "歌声を認識中（{p0}）…"
+  },
+  "正在识别歌声（{p0}）… {p1}%": {
+    "en": "Recognizing vocals ({p0})… {p1}%",
+    "ja": "歌声を認識中（{p0}）… {p1}%"
+  },
+  "正在读取音频…": {
+    "en": "Loading audio…",
+    "ja": "音声を読み込み中…"
+  },
+  "此刻设为开始": {
+    "en": "Set start here",
+    "ja": "現在位置を開始に"
+  },
+  "此刻设为结束": {
+    "en": "Set end here",
+    "ja": "現在位置を終了に"
+  },
+  "比歌词时间提前多少秒切到下一句，方便演员提前看到": {
+    "en": "Switch to the next line this many seconds early to give the performer advance notice.",
+    "ja": "歌詞の時刻より何秒早く次の行に切り替えるかを指定します。"
+  },
+  "没有时间轴": {
+    "en": "No timestamps",
+    "ja": "時刻がありません"
+  },
+  "没有歌词": {
+    "en": "No lyrics",
+    "ja": "歌詞がありません"
+  },
+  "浏览…": {
+    "en": "Browse…",
+    "ja": "参照…"
+  },
+  "渲染设置有误：{p0}": {
+    "en": "Invalid rendering settings: {p0}",
+    "ja": "描画設定に問題があります：{p0}"
+  },
+  "点击选择颜色": {
+    "en": "Click to choose a color",
+    "ja": "クリックして色を選択"
+  },
+  "爱": {
+    "en": "爱",
+    "ja": "爱"
+  },
+  "特粗": {
+    "en": "Extra bold",
+    "ja": "極太"
+  },
+  "特细": {
+    "en": "Extra light",
+    "ja": "エクストラライト"
+  },
+  "生成失败：{p0}": {
+    "en": "Export failed: {p0}",
+    "ja": "動画の作成に失敗しました：{p0}"
+  },
+  "生成提词器视频": {
+    "en": "Export teleprompter video",
+    "ja": "プロンプター動画を作成"
+  },
+  "生成视频": {
+    "en": "Export video",
+    "ja": "動画を作成"
+  },
+  "用于抠像（标准绿 #00B140）": {
+    "en": "Chroma key green (#00B140)",
+    "ja": "クロマキー用の緑（#00B140）"
+  },
+  "用于抠像（标准蓝 #0047BB）": {
+    "en": "Chroma key blue (#0047BB)",
+    "ja": "クロマキー用の青（#0047BB）"
+  },
+  "画质": {
+    "en": "Quality",
+    "ja": "画質"
+  },
+  "留空表示自动结束；显示的自动时间以空白字段旁的提示为准": {
+    "en": "Leave blank for an automatic end; the placeholder shows the inferred time.",
+    "ja": "空欄にすると終了時刻を自動設定します。入力欄の薄い表示が推定時刻です。"
+  },
+  "相邻行亮度": {
+    "en": "Adjacent-line brightness",
+    "ja": "隣接行の明るさ"
+  },
+  "短句合并": {
+    "en": "Merge short lines",
+    "ja": "短い行を結合"
+  },
+  "短句标准": {
+    "en": "Short-line limit",
+    "ja": "短い行の基準"
+  },
+  "示例歌词 —— 请先选择音频和歌词文件": {
+    "en": "Example lyrics — select audio and lyrics to begin",
+    "ja": "表示例 — 音声と歌詞を選択してください"
+  },
+  "程序出错": {
+    "en": "Application error",
+    "ja": "アプリケーションエラー"
+  },
+  "空格键：播放/暂停；在歌词、时间等输入框中保留正常输入": {
+    "en": "Space: play/pause. Text and time fields keep normal typing.",
+    "ja": "スペース：再生／一時停止。歌詞や時刻の入力欄では通常どおり入力できます。"
+  },
+  "第 {p0}/{p1} 句 · ": {
+    "en": "Line {p0}/{p1} · ",
+    "ja": "{p0}/{p1}行目 · "
+  },
+  "第一次使用需要下载识别模型，现在下载吗？\n（下载一次即可，之后可离线使用）": {
+    "en": "An alignment model is required. Download it now?\n(Download once, then use it offline.)",
+    "ja": "認識モデルが必要です。今すぐダウンロードしますか？\n（一度ダウンロードすれば、以後はオフラインで使用できます）"
+  },
+  "第五行": {
+    "en": "Line five",
+    "ja": "5行目"
+  },
+  "第四行": {
+    "en": "Line four",
+    "ja": "4行目"
+  },
+  "等待行亮度": {
+    "en": "Upcoming-line brightness",
+    "ja": "待機行の明るさ"
+  },
+  "简易模式": {
+    "en": "Simple",
+    "ja": "簡易モード"
+  },
+  "粗": {
+    "en": "Bold",
+    "ja": "太字"
+  },
+  "粤语": {
+    "en": "Cantonese",
+    "ja": "広東語"
+  },
+  "纯文本歌词：临时按每行 3 秒显示，请先「自动识别时间轴」": {
+    "en": "Plain text: temporary 3-second lines. Run Auto-align lyrics first.",
+    "ja": "テキスト歌詞：仮に1行3秒で表示しています。先に歌詞の自動同期を実行してください。"
+  },
+  "纯文本的时间仍是临时值，请先自动识别时间轴。": {
+    "en": "Plain-text timestamps are temporary. Auto-align the lyrics first.",
+    "ja": "テキスト歌詞の時刻は仮の値です。先に歌詞の自動同期を実行してください。"
+  },
+  "细": {
+    "en": "Light",
+    "ja": "細字"
+  },
+  "结尾 +": {
+    "en": "End +",
+    "ja": "終了 +"
+  },
+  "结尾 −": {
+    "en": "End −",
+    "ja": "終了 −"
+  },
+  "结束": {
+    "en": "End",
+    "ja": "終了"
+  },
+  "结束时间必须晚于开始时间至少 10ms。": {
+    "en": "The end must be at least 10ms after the start.",
+    "ja": "終了時刻は開始時刻より10ms以上後にしてください。"
+  },
+  "绿幕": {
+    "en": "Green",
+    "ja": "グリーン"
+  },
+  "编码器": {
+    "en": "Encoder",
+    "ja": "エンコーダー"
+  },
+  "编辑原始时间（不含整体偏移）；句尾留空为自动。": {
+    "en": "Source times (without global offset); blank end = auto.",
+    "ja": "元の時刻を編集（全体オフセットは含みません）。終了を空欄にすると自動です。"
+  },
+  "背景颜色": {
+    "en": "Background",
+    "ja": "背景色"
+  },
+  "自动把很短的几句合成一行": {
+    "en": "Merge very short phrases into one line",
+    "ja": "とても短い複数の歌詞を1行に結合"
+  },
+  "自动检测": {
+    "en": "Auto-detect",
+    "ja": "自動検出"
+  },
+  "自动识别时间轴": {
+    "en": "Auto-align lyrics",
+    "ja": "歌詞の自動同期"
+  },
+  "自动识别时间轴…": {
+    "en": "Auto-align lyrics…",
+    "ja": "歌詞の自動同期…"
+  },
+  "自动铺满屏幕": {
+    "en": "Auto-fit to screen",
+    "ja": "画面に自動フィット"
+  },
+  "自定义": {
+    "en": "Custom",
+    "ja": "カスタム"
+  },
+  "自定义尺寸": {
+    "en": "Custom dimensions",
+    "ja": "カスタムサイズ"
+  },
+  "自检第一行": {
+    "en": "Self-test line one",
+    "ja": "テストの1行目"
+  },
+  "英语": {
+    "en": "English",
+    "ja": "英語"
+  },
+  "蓝幕": {
+    "en": "Blue",
+    "ja": "ブルー"
+  },
+  "行间距": {
+    "en": "Line spacing",
+    "ja": "行間"
+  },
+  "视频已生成：\n{p0}\n\n大小 {p1:.1f} MB · 时长 {p2} · 共 {p3} 帧（其中 {p4} 帧有变化）": {
+    "en": "Video created:\n{p0}\n\nSize {p1:.1f} MB · Duration {p2} · {p3} frames ({p4} unique)",
+    "ja": "動画を作成しました：\n{p0}\n\n容量{p1:.1f} MB・長さ{p2}・{p3}フレーム（変化あり{p4}フレーム）"
+  },
+  "视频还在生成中，确定要退出吗？": {
+    "en": "Video export is in progress. Exit anyway?",
+    "ja": "動画を作成中です。終了しますか？"
+  },
+  "识别失败：{p0}": {
+    "en": "Alignment failed: {p0}",
+    "ja": "自動同期に失敗しました：{p0}"
+  },
+  "识别模型": {
+    "en": "Model",
+    "ja": "認識モデル"
+  },
+  "识别模型还没有下载": {
+    "en": "The alignment model has not been downloaded",
+    "ja": "認識モデルがまだダウンロードされていません"
+  },
+  "识别歌声效果最好，CPU 上处理一首歌约 1~3 分钟": {
+    "en": "Best for singing; roughly 1–3 minutes per song on CPU.",
+    "ja": "歌声に適しています。CPUでは1曲あたり約1～3分です。"
+  },
+  "识别结果（双击时间可修改，橙色 = 没听清、时间为估算）": {
+    "en": "Alignment results (double-click times to edit; orange = estimated)",
+    "ja": "同期結果（時刻をダブルクリックして修正・オレンジは推定）"
+  },
+  "试听本句": {
+    "en": "Audition line",
+    "ja": "この行を試聴"
+  },
+  "试听选中行": {
+    "en": "Audition selected",
+    "ja": "選択行を試聴"
+  },
+  "该文件中没有音频轨道": {
+    "en": "This file has no audio track",
+    "ja": "このファイルには音声トラックがありません"
+  },
+  "详细模式": {
+    "en": "Detailed",
+    "ja": "詳細モード"
+  },
+  "语言": {
+    "en": "Language",
+    "ja": "言語"
+  },
+  "请先在左边输入歌词，每行一句。": {
+    "en": "Enter the lyrics on the left, one phrase per line.",
+    "ja": "左側に歌詞を1行ずつ入力してください。"
+  },
+  "请先输入有效时间。": {
+    "en": "Enter a valid time first.",
+    "ja": "有効な時刻を入力してください。"
+  },
+  "请先选择歌词文件。": {
+    "en": "Select a lyrics file first.",
+    "ja": "先に歌詞ファイルを選択してください。"
+  },
+  "请先选择音频文件。": {
+    "en": "Select an audio file first.",
+    "ja": "先に音声ファイルを選択してください。"
+  },
+  "请导入或插入歌词；预览合并不会改变这里的原始行。": {
+    "en": "Import or insert lyrics. Preview merging does not alter source lines.",
+    "ja": "歌詞を読み込むか挿入してください。プレビューの結合は元の行を変更しません。"
+  },
+  "请导入歌词；时间为原始歌词时间，不含预览的整体偏移。": {
+    "en": "Import lyrics. Times exclude the preview's global offset.",
+    "ja": "歌詞を読み込んでください。時刻にはプレビューの全体オフセットを含みません。"
+  },
+  "越大文件越小；越小在播放软件里拖动/跳转越灵敏": {
+    "en": "Longer intervals reduce file size; shorter intervals improve seeking.",
+    "ja": "間隔が長いほど小容量に、短いほど再生時のシークが快適になります。"
+  },
+  "越往外的行越透明，从「相邻行」线性过渡到「最远行」": {
+    "en": "Fade from adjacent-line brightness to farthest-line brightness.",
+    "ja": "隣接行から最遠行に向かって、徐々に薄く表示します。"
+  },
+  "跟随播放选句": {
+    "en": "Follow playback",
+    "ja": "再生に合わせて選択"
+  },
+  "输出 {p0}×{p1} · {p2:g} fps": {
+    "en": "Output {p0}×{p1} · {p2:g} fps",
+    "ja": "出力 {p0}×{p1}・{p2:g} fps"
+  },
+  "输出视频文件路径（.mp4）": {
+    "en": "Output video path (.mp4)",
+    "ja": "出力動画のパス（.mp4）"
+  },
+  "过渡动画": {
+    "en": "Transition",
+    "ja": "切り替えアニメーション"
+  },
+  "这一行是正在演唱的歌词": {
+    "en": "This is the line currently being sung",
+    "ja": "この行が現在歌っている歌詞です"
+  },
+  "这一行没有听清楚，时间是根据前后估算的，建议试听确认。": {
+    "en": "This line was unclear; its times are estimated. Audition it to verify.",
+    "ja": "この行は認識が不確かなため、前後から時刻を推定しています。試聴して確認してください。"
+  },
+  "这个字体文件无法使用。": {
+    "en": "This font file cannot be used.",
+    "ja": "このフォントファイルは使用できません。"
+  },
+  "这个文件里没有找到歌词。": {
+    "en": "No lyrics were found in this file.",
+    "ja": "このファイルに歌詞が見つかりません。"
+  },
+  "这个歌词文件没有时间轴，现在自动识别吗？": {
+    "en": "This lyrics file has no timestamps. Auto-align it now?",
+    "ja": "この歌詞ファイルには時刻がありません。今すぐ自動同期しますか？"
+  },
+  "这是当前行歌词": {
+    "en": "This is the current lyric line",
+    "ja": "これが現在の歌詞行です"
+  },
+  "选择…": {
+    "en": "Select…",
+    "ja": "選択…"
+  },
+  "选择字体文件": {
+    "en": "Choose font file",
+    "ja": "フォントファイルを選択"
+  },
+  "选择歌曲音频（mp3 / wav / flac / m4a …）": {
+    "en": "Choose audio (mp3 / wav / flac / m4a …)",
+    "ja": "音声を選択（mp3 / wav / flac / m4a …）"
+  },
+  "选择歌词": {
+    "en": "Choose lyrics",
+    "ja": "歌詞を選択"
+  },
+  "选择歌词（lrc / srt / 纯文本 txt）": {
+    "en": "Choose lyrics (LRC / SRT / plain TXT)",
+    "ja": "歌詞を選択（LRC / SRT / テキストTXT）"
+  },
+  "选择音频": {
+    "en": "Choose audio",
+    "ja": "音声を選択"
+  },
+  "选择颜色": {
+    "en": "Choose color",
+    "ja": "色を選択"
+  },
+  "重做": {
+    "en": "Redo",
+    "ja": "やり直す"
+  },
+  "长句折行": {
+    "en": "Long-line wrapping",
+    "ja": "長い行の折り返し"
+  },
+  "间奏判定": {
+    "en": "Interlude threshold",
+    "ja": "間奏の判定時間"
+  },
+  "间奏较长时，上一句唱完后就把下一句移到中间（暗色等待），开唱前出现 ●●● 倒计时": {
+    "en": "During long gaps, move the next line to the center, dimmed, then show a dot countdown before it starts.",
+    "ja": "長い間奏では、次の行を中央に薄く表示し、歌い出しの前に丸印でカウントダウンします。"
+  },
+  "需要下载模型": {
+    "en": "Model download required",
+    "ja": "モデルのダウンロードが必要です"
+  },
+  "靠右": {
+    "en": "Right",
+    "ja": "右揃え"
+  },
+  "靠左": {
+    "en": "Left",
+    "ja": "左揃え"
+  },
+  "韩语": {
+    "en": "Korean",
+    "ja": "韓国語"
+  },
+  "音频": {
+    "en": "Audio",
+    "ja": "音声"
+  },
+  "音频 ({p0});;所有文件 (*.*)": {
+    "en": "Audio ({p0});;All files (*.*)",
+    "ja": "音声 ({p0});;すべてのファイル (*.*)"
+  },
+  "音频已载入：{p0}  时长 {p1}": {
+    "en": "Audio loaded: {p0}  Duration {p1}",
+    "ja": "音声を読み込みました：{p0}・長さ{p1}"
+  },
+  "音频：{p0}": {
+    "en": "Audio: {p0}",
+    "ja": "音声：{p0}"
+  },
+  "高画质（QP 18）": {
+    "en": "High quality (QP 18)",
+    "ja": "高画質（QP 18）"
+  },
+  "黑": {
+    "en": "Black",
+    "ja": "ブラック"
+  },
+  "黑色": {
+    "en": "Black",
+    "ja": "黒"
+  },
+  "（合并后 {p0} 行）": {
+    "en": " ({p0} displayed after merging)",
+    "ja": "（結合後{p0}行）"
+  },
+  "（尚未保存）": {
+    "en": " (not saved)",
+    "ja": "（未保存）"
+  },
+  "（请点「另存歌词」保存）": {
+    "en": " (use Save lyrics as to save)",
+    "ja": "（歌詞を別名で保存してください）"
+  },
+  "，全部识别成功。": {
+    "en": "; all lines aligned.",
+    "ja": "、すべての行を同期しました。"
+  },
+  "，其中 {p0} 行没听清（橙色），请检查。": {
+    "en": "; please review {p0} uncertain lines (orange).",
+    "ja": "、不確かな{p0}行（オレンジ）を確認してください。"
+  },
+  "，已保存为 {p0}": {
+    "en": "; saved as {p0}",
+    "ja": "、{p0} に保存しました"
+  },
+  "设置": {
+    "en": "Settings",
+    "ja": "設定"
+  },
+  "界面语言…": {
+    "en": "Interface language…",
+    "ja": "表示言語…"
+  },
+  "界面语言": {
+    "en": "Interface language",
+    "ja": "表示言語"
+  },
+  "跟随系统": {
+    "en": "Follow system",
+    "ja": "システムに合わせる"
+  },
+  "跟随系统时：中文系统显示中文，日文系统显示日文，其他系统显示英文。切换立即生效并自动记住，不改变歌词内容或识别语言。": {
+    "en": "Follow system uses Chinese for Chinese systems, Japanese for Japanese systems, and English otherwise. Changes apply immediately and are remembered. Lyrics and recognition language are not changed.",
+    "ja": "システムに合わせる場合、中国語環境では中国語、日本語環境では日本語、それ以外では英語を表示します。変更はすぐに反映・保存され、歌詞の内容や認識言語は変わりません。"
+  },
+  "空格": {
+    "en": "Space",
+    "ja": "空白"
+  },
+  "2560×1440（2K）": {
+    "en": "2560×1440 (2K)",
+    "ja": "2560×1440（2K）"
+  },
+  "3840×2160（4K）": {
+    "en": "3840×2160 (4K)",
+    "ja": "3840×2160（4K）"
+  },
+  "1024×768（4:3）": {
+    "en": "1024×768 (4:3)",
+    "ja": "1024×768（4:3）"
+  },
+  "提词器预览": {
+    "en": "Teleprompter preview",
+    "ja": "プロンプター表示"
+  },
+  "← 重新对轴": {
+    "en": "← Re-align",
+    "ja": "← 再同期"
+  },
+  "① 导入与对轴": {
+    "en": "① Import and align",
+    "ja": "① 読み込みと同期"
+  },
+  "② 格式与微调": {
+    "en": "② Format and fine-tune",
+    "ja": "② 書式と微調整"
+  },
+  "⚠ 未对轴": {
+    "en": "⚠ not timed",
+    "ja": "⚠ 未同期"
+  },
+  "⚠ 这是纯文本歌词（{p0} 行），没有时间轴。请点击「开始识别」自动对轴。": {
+    "en": "⚠ Plain-text lyrics ({p0} lines) without timing. Click \"Start alignment\" to time them automatically.",
+    "ja": "⚠ タイミングのないテキスト歌詞です（{p0} 行）。「自動同期を開始」をクリックしてください。"
+  },
+  "亮度 / 透明度": {
+    "en": "Brightness / opacity",
+    "ja": "明るさ / 不透明度"
+  },
+  "保存到当前歌词文件（Ctrl+S）": {
+    "en": "Save to the current lyric file (Ctrl+S)",
+    "ja": "現在の歌詞ファイルに保存（Ctrl+S）"
+  },
+  "动画与时间": {
+    "en": "Animation and timing",
+    "ja": "アニメーションとタイミング"
+  },
+  "可以直接把音频和歌词文件拖进窗口": {
+    "en": "You can drag audio and lyric files into the window",
+    "ja": "音声ファイルと歌詞ファイルをウィンドウにドラッグできます"
+  },
+  "在这里粘贴或输入歌词，每行一句。\n标题、作者等不唱的行可以删掉，不删也会被自动识别为未演唱。": {
+    "en": "Paste or type the lyrics here, one line per phrase.\nLines that are not sung (title, credits) can be removed; otherwise they are detected as not sung.",
+    "ja": "ここに歌詞を貼り付けるか入力してください（1行1フレーズ）。\nタイトルや作者など歌わない行は削除できます。残しても未歌唱として自動判定されます。"
+  },
+  "导入 TXT / LRC / SRT 歌词文件": {
+    "en": "Import a TXT / LRC / SRT lyric file",
+    "ja": "TXT / LRC / SRT 歌詞ファイルを読み込む"
+  },
+  "导入文件…": {
+    "en": "Import file…",
+    "ja": "ファイルを読み込む…"
+  },
+  "导入音频和歌词，自动识别时间轴": {
+    "en": "Import audio and lyrics, then detect the timing automatically",
+    "ja": "音声と歌詞を読み込み、タイミングを自動認識します"
+  },
+  "已有时间轴，直接下一步 →": {
+    "en": "Already timed, next step →",
+    "ja": "同期済み、次へ →"
+  },
+  "应用并进入下一步 →": {
+    "en": "Apply and continue →",
+    "ja": "適用して次へ →"
+  },
+  "文字": {
+    "en": "Text",
+    "ja": "文字"
+  },
+  "未导入歌词": {
+    "en": "No lyrics imported",
+    "ja": "歌詞が読み込まれていません"
+  },
+  "未选择音频": {
+    "en": "No audio selected",
+    "ja": "音声が選択されていません"
+  },
+  "本句微调": {
+    "en": "Fine-tune line",
+    "ja": "行の微調整"
+  },
+  "歌词与时间轴": {
+    "en": "Lyrics and timing",
+    "ja": "歌詞とタイミング"
+  },
+  "歌词已经带时间轴（LRC / SRT）时，跳过自动识别": {
+    "en": "Skip automatic recognition when the lyrics are already timed (LRC / SRT)",
+    "ja": "歌詞にタイミングがある場合（LRC / SRT）は自動認識をスキップします"
+  },
+  "清空": {
+    "en": "Clear",
+    "ja": "クリア"
+  },
+  "用剪贴板中的文字替换左侧歌词": {
+    "en": "Replace the lyrics with the clipboard text",
+    "ja": "クリップボードのテキストで歌詞を置き換えます"
+  },
+  "画面": {
+    "en": "Canvas",
+    "ja": "画面"
+  },
+  "粘贴": {
+    "en": "Paste",
+    "ja": "貼り付け"
+  },
+  "编辑原始歌词行（不受预览短句合并影响）": {
+    "en": "Edits the original lyric lines (not affected by short-line merging in the preview)",
+    "ja": "元の歌詞行を編集します（プレビューの短い行の結合の影響を受けません）"
+  },
+  "视频输出": {
+    "en": "Video output",
+    "ja": "動画出力"
+  },
+  "设置提词器画面格式，微调时间轴并导出视频": {
+    "en": "Set the teleprompter format, fine-tune timing and export the video",
+    "ja": "プロンプターの書式を設定し、タイミングを微調整して動画を書き出します"
+  },
+  "项目": {
+    "en": "Project",
+    "ja": "プロジェクト"
+  },
+  "，已带时间轴，可以直接进入下一步。": {
+    "en": ", already timed; you can go straight to the next step.",
+    "ja": "。タイミング付きなので、そのまま次へ進めます。"
+  }
+}
